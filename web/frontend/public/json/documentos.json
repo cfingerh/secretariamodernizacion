@@ -1,0 +1,377 @@
+{
+  "data": {
+    "documentos": [
+      {
+        "titulo": "Racionalización de Reportes de Gestión en el Sector Público - Informe Final",
+        "fecha": "Enero 2020",
+        "descripcion": "Diagnóstico sobre los reportes de gestión que deben generar los servicios públicos chilenos, y generar una serie de propuestas y recomendaciones para su racionalización, de manera que se generen los reportes de mayor utilidad, usando menos recursos y procurando calidad de la información reportada.",
+        "ruta_documento": "files/diagnosticos/",
+        "documento": "Racionalización de Reportes de Gestión - Informe final.pdf"
+      },
+      {
+        "titulo": "Racionalización de Reportes de Gestión en el Sector Público - Resumen",
+        "fecha": "Enero 2020",
+        "descripcion": "Diagnóstico sobre los reportes de gestión que deben generar los servicios públicos chilenos, y generar una serie de propuestas y recomendaciones para su racionalización, de manera que se generen los reportes de mayor utilidad, usando menos recursos y procurando calidad de la información reportada.",
+        "ruta_documento": "files/diagnosticos/",
+        "documento": "reportes.pdf"
+      },
+      {
+        "titulo": "Informe Final evaluación intermedia",
+        "fecha": "Mayo 2020",
+        "descripcion": "El informe reporta la evaluación intermedia hecha a la del ejecución del Programa de Mejora de la Gestión Pública y de los Servicios al Ciudadano mediante un préstamo del Banco Interamericano del Desarrollo, lo que incluye la evaluación final de dos proyectos que completaron su ciclo (SERNAC y SUSESO). La evaluación da cuenta del avance y cumplimiento de los plazos e hitos del Plan de Ejecución del Programa (PEP) y realiza un análisis de los resultados de las metas establecidas en la Matriz de Resultados definidos en el programa.",
+        "ruta_documento": "files/diagnosticos/",
+        "documento": "Informe final evaluación intermedia - Secretaría de Modernización_vf.pdf"
+      },
+      {
+        "titulo": "Informe Diseño Conceptuals",
+        "fecha": "Diciembre 2019",
+        "descripcion": "Informe que expone el Diseño Conceptual de un nuevo Sistema de Apoderamiento (Registro de Poderes).",
+        "ruta_documento": "files/diagnosticos/",
+        "documento": "E1-E1 Informe Diseño Conceptual V 3.0.pdf"
+      },
+      {
+        "titulo": "Modelo de Transformación en el Sector Público",
+        "fecha": "Septiembre 2017",
+        "descripcion": "Presentación de un modelo de transformación del sector público, que para tener éxito debe incluir tres elementos: liderazgo político, presupuesto, gobernanza y capacidad institucional.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "20170921 MODELO DE TRANSFORMACION EN EL SECTOR PUBLICO.pdf"
+      },
+      {
+        "titulo": "Resumen Informe final",
+        "fecha": "Mayo 2016",
+        "descripcion": "Diagnóstico y lineamientos para implementar un sistema de gestión de información de personas, de manera de obtener datos de calidad, fácilmente accesibles y un mejor análisis de variables clave.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Resumen Informe FINAL.pdf"
+      },
+      {
+        "titulo": "Presentación Final Estudio",
+        "fecha": "Julio 2016",
+        "descripcion": "",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "PPT Informe Final.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio",
+        "fecha": "Mayo 2016",
+        "descripcion": "",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Informe FINAL Gestion Informacion Personas en el Estado.pdf"
+      },
+      {
+        "titulo": "Interoperabilidad Sigfe-Mercado Público",
+        "fecha": "Noviembre 2017",
+        "descripcion": "Propuesta técnica para interoperabilidad entre el Sistema de Información y Gestión Financiera del Estado (SIGFE) y Sistema de Compras Públicas (MercadoPúblico).",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Diseño de la Solución V2.0.pdf"
+      },
+      {
+        "titulo": "Presentación Estudio Incentivos",
+        "fecha": "Julio 2016",
+        "descripcion": "",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Estudio PMG Presentación.pptx"
+      },
+      {
+        "titulo": "Revision Conceptual e Internacional Sistemas de Incentivos en Sector Público",
+        "fecha": "Febrero 2016",
+        "descripcion": "",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "2016_Revision Conceptual e Internacional Sistemas de Incentivos en Sector Publico.pdf"
+      },
+      {
+        "titulo": "Resumen Ejecutivo Estudio Incentivos Institucionales del Sector Público",
+        "fecha": "Julio 2016",
+        "descripcion": "Resumen Ejecutivo Estudio Incentivos Institucionales del Sector Público",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "6_ Resumen Ejecutivo Estudio Incentivos Institucionales del Sector Publico.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio Incentivos Institucionales del Sector Público",
+        "fecha": "Julio 2016",
+        "descripcion": "Recomendaciones sobre herramientas incentivos monetarios asociados al Programa de Mejoramiento de la Gestión (PMG), las Metas de Eficiencia Institucional (MEI) y los Servicios Adscritos a los PMG, en base al análisis y evaluación del diseño, implementación, costos y resultados a nivel de producción de los mismos.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "5_2016 JUL - Informe Final Estudio Incentivos Institucionales del Sector Publico.pdf"
+      },
+      {
+        "titulo": "Informe Revisión Literatura y Evidencia Internacional",
+        "fecha": "Febrero 2016",
+        "descripcion": "Revisión de literatura relevante y estudio comparativo sistemas de incentivo en el sector público. ",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "2_2016 FEB - Informe Revisión Literatura y Evidencia Internacional.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio de la Legislación Vigente que Permita Unificar Criterios en el Derecho de Tutela Laboral en el Sector Público",
+        "fecha": "Diciembre 2015",
+        "descripcion": "Informe Final: Estudio de la Legislación Vigente con miras a Unificar Criterios en el Derecho de Tutela Laboral en el Sector Público",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "8 - Informe Final Estudio de la Legislación Vigente que Permita Unificar Criterios en el Derecho de Tutela Laboral en el Sector Público.pdf"
+      },
+      {
+        "titulo": "Estudio comparado acerca de la institucionalización de modalidades eficaces de negociación colectiva en el sector público",
+        "fecha": "Noviembre 2015",
+        "descripcion": "Estudio comparado acerca de la institucionalización de modalidades eficaces de negociación colectiva en el sector público",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "7 - Estudio comparado acerca de la institucionalización de modalidades eficaces de negociación colectiva en el sector público haciéndose cargo de sus especiales particularidades.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio Comparado de Sistemas de Contratación y Modelos de Empleo Público OCDE",
+        "fecha": "Julio 2016",
+        "descripcion": "Informe Final Estudio Comparado de Sistemas de Contratación y Modelos de Empleo Público OCDE",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "5 - Estudio-Empleo-Publico-OCDE- FINAL Julio 2016.pdf"
+      },
+      {
+        "titulo": "Recopilación de Propuestas de Mejora de Redacción de la Ley-20305 y Situaciones de Traslapes Administrativos",
+        "fecha": "Junio 2016",
+        "descripcion": "Recopilación de Propuestas de Mejora de Redacción de la Ley-20305 y Situaciones de Traslapes Administrativos",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "1.1 - Recopilación  de Propuestas de Mejora de Redacción de la Ley-20305 y Situaciones de Traslapes Administrativos para la Aplicación del Bono Post Labor.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio de Construcción de un Nuevo Modelo de Convenio Marco",
+        "fecha": "Julio 2017",
+        "descripcion": "Consultoría con diagnóstico del modelo de compras públicas en el Sistema ChileCompra, y propuestas para implementación de modificaciones/ nuevas modalidades de compra, con foco en eficiencia.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "170907_Informe final V4.0 portada.pdf"
+      },
+      {
+        "titulo": "Análisis del Funcionamiento y la Relevancia de la Modalidad de Operación del Programa",
+        "fecha": "Febrero 2018",
+        "descripcion": "Informe con descripción del funcionamiento del Programa de Modernización del Sector Público, análisis de fortalezas, debilidad y recomendaciones.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "CH-L1085 Evaluacion Irarrazaval Febrero 2018 FINAL.pdf"
+      },
+      {
+        "titulo": "Informe final consultoría Alineamiento a las Mejores Prácticas Internacionales ChileCompra",
+        "fecha": "Agosto 2017",
+        "descripcion": "Informe con descripción de mejores prácticas internacionales en materias de compras públicas, y diagnóstico y propuestas para el Sistema ChileCompra",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Informe final consultoria Alineamiento a las Mejores Practicas Internacionales ChileCompra.pdf"
+      },
+      {
+        "titulo": "Estudio Local de Gobernanza Digital",
+        "fecha": "Marzo 2016",
+        "descripcion": "Propuesta de fortalecimiento institucional para facilitar la gobernanza digital en el Estado de Chile.",
+        "ruta_documento": "files/historicos/gestion_publica/",
+        "documento": "Informe Final Gob. Digital.pdf"
+      },
+      {
+        "titulo": "Caso de Negocio para eliminación de Cobro del Certificado de Antecedentes",
+        "fecha": "Junio 2018",
+        "descripcion": "Estudio para analizar trámites del Servicio de registro Civil e Identificación a fin de construir un caso de negocios par la elimnación del cobro del Certificado de Antecedentes.",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Certificados de Antecedentes y vehiculos_Final v2.pdf"
+      },
+      {
+        "titulo": "Formulación Proyecto de Modernización Registro Civil e Identificación",
+        "fecha": "Septiembre 2017",
+        "descripcion": "Formulación Proyecto de Modernización Registro Civil e Identificación",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "RegCivil - Informe 3 vf enviada.pdf"
+      },
+      {
+        "titulo": "Registro Civil Informe de Diagnostico",
+        "fecha": "Agosto 2017",
+        "descripcion": "Registro civil: diagnóstico para el proyecto.",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "RegCivil - Informe 2.pdf"
+      },
+      {
+        "titulo": "Diseño de Sistema para la Gestión Estratégica de Subsecretarías",
+        "fecha": "Octubre 2017",
+        "descripcion": "Propuesta y piloto de sistema de información y reportes para la gestión estratégica de las subsecretarías. ",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Informe_Final_igestion2.0 v2 docx.pdf"
+      },
+      {
+        "titulo": "Resumen Ejecutivo Final Estudio Buenas Prácticas de Protección de la Infancia",
+        "fecha": "Agosto 2016",
+        "descripcion": "Resumen Ejecutivo Final Estudio Buenas Prácticas de Protección de la Infancia",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Resumen ejecutivo_Estudio buenas prácticas de protección especializada.pdf"
+      },
+      {
+        "titulo": "Presentación Final - Buenas prácticas de protección especializada - SENAME",
+        "fecha": "Octubre 2016",
+        "descripcion": "Presentación Final - Buenas prácticas de protección especializada - SENAME",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Presentación Final - Buenas prácticas de protección especializada_SENAME.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio Buenas Prácticas de Protección de Infancia",
+        "fecha": "Septiembre 2016",
+        "descripcion": "Informe Final Estudio Buenas Prácticas de Protección de Infancia",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Informe Final Estudio Buenas Prácticas septiembre 2016.pdf"
+      },
+      {
+        "titulo": "Informe Anexos Estudios de Casos Buenas Prácticas en Protección de Infancia",
+        "fecha": "Septiembre 2016",
+        "descripcion": "Informe Anexos Estudios de Casos Buenas Practicas en Protección de Infancia",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Anexo 8 informes intracaso.pdf"
+      },
+      {
+        "titulo": "Informe Final Rediseño Encuesta Nacional Derechos Cuidadanos",
+        "fecha": "Octubre 2015",
+        "descripcion": "Rediseño del marco teórico y metodológico del cuestionario de la Encuesta Nacional de Derechos Ciudadanos (ENDC) para convertirlo en un instrumento de nivel mundial, que entregue estimaciones válidas y confiables respecto de la valoración de derechos ciudadanos en la interacción con órganos del Estado.",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Informe final - ENDC.pdf"
+      },
+      {
+        "titulo": "Informe Final Aplicación Encuesta",
+        "fecha": "Junio 2016",
+        "descripcion": "Informe Aplicación encuesta Nacional de Derechos Ciudadanos",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "1. ENDC - Informe Final Encuesta.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio",
+        "fecha": "Abril 2014",
+        "descripcion": "Estudio Propuesta de diseño institucional para un sistema integral de la infancia",
+        "ruta_documento": "files/historicos/politicas_publicas/",
+        "documento": "Informe final-Enrique Rajevic.pdf"
+      },
+      {
+        "titulo": "Propuesta Normativa Para la Creación de un Sistema Nacional de Archivos Ministerio de Hacienda",
+        "fecha": "Abril 2017",
+        "descripcion": "Consultoría con propuesta normativa para un Sistema Nacional de Archivos y Política Nacional de Archivos.",
+        "ruta_documento": "files/historicos/gestion_conocimiento/",
+        "documento": "Propuesta Normativa Sistema Nacional de Archivos Microsystem Consultoria.pdf"
+      },
+      {
+        "titulo": "Informe Final Estudio Gestión del Conocimiento",
+        "fecha": "Octubre 2015",
+        "descripcion": "Informe Final Estudio de Definición de un Modelo de Gestión del Conocimiento para el Programa de Modernización del Estado",
+        "ruta_documento": "files/historicos/gestion_conocimiento/",
+        "documento": "Informe_final_G_del_Conocimiento.pdf"
+      },
+      {
+        "titulo": "Informe Final Gestión Documental",
+        "fecha": "Mayo 2016",
+        "descripcion": "Estudio: Evaluación y análisis de la gestión de la información (GI) en el Estado de Chile e identifica la forma en que ésta impacta en los servicios ciudadanos, en la producción administrativa, y en el acceso a los registros de actividad del Estado. Finaliza con recomendaciones para el desarrollo de soluciones.",
+        "ruta_documento": "files/historicos/gestion_conocimiento/",
+        "documento": "Informe final Gestión Documental.zip"
+      },
+      {
+        "titulo": "ESTUDIO DE USO INTENSIVO DE DATOS EN POLÍTICAS PÚBLICAS: ANÁLISIS Y RECOMENDACIONES ESTRATÉGICAS PARA LA IMPLEMENTACIÓN DE UNA POLÍTICA EN BASE A LA EVIDENCIA INTERNACIONAL",
+        "fecha": "Diciembre 2017",
+        "descripcion": "Recomendaciones para la implementación de una política de uso de datos en las políticas públicas.",
+        "ruta_documento": "files/historicos/gestion_conocimiento/",
+        "documento": "180130_Estudio_datos_estudios.pdf"
+      },
+      {
+        "titulo": "DOCUMENTO CON LÍNEAS DE ESTUDIO/TRABAJO PARA EL PROGRAMA DE MODERNIZACIÓN DEL SECTOR PÚBLICO",
+        "fecha": "Diciembre 2017",
+        "descripcion": "Recomendaciones para futuras líneas de trabajo y estudios para desarrollar el uso de intensivo de datos en el sector público.",
+        "ruta_documento": "files/historicos/gestion_conocimiento/",
+        "documento": "180307_Estudio_datos_final.pdf"
+      },
+      {
+        "titulo": "Transformación Digital en Chile",
+        "fecha": "",
+        "descripcion": "Amaya Fraile / Secretaría de Modernización",
+        "ruta_documento": "files/seminarios/",
+        "documento": "SatisfaccionCiudadana y Transformación Digital_A Fraile_Seminario OCDE.pdf"
+      },
+      {
+        "titulo": "Recomendaciones de la OCDE para la Transformación Digital en Chile (ES)",
+        "fecha": "",
+        "descripcion": "Barbara-Chiara Ubaldi / OCDE",
+        "ruta_documento": "files/seminarios/",
+        "documento": "20200625 Barbara 1.en.es.pdf"
+      },
+      {
+        "titulo": "OECD Recommendations for Digital Transformation in Chile (EN)",
+        "fecha": "",
+        "descripcion": "Barbara-Chiara Ubaldi / OCDE",
+        "ruta_documento": "files/seminarios/",
+        "documento": "20200625 Barbara 1.pdf"
+      },
+      {
+        "titulo": "Transformación Digital en Chile",
+        "fecha": "",
+        "descripcion": "Adam Lebech / Agency for Digitisation",
+        "ruta_documento": "files/seminarios/",
+        "documento": "20200626 Adam Lebech nemID.pdf"
+      },
+      {
+        "titulo": "Transformación Digital en la OCDE y Chile. Desafíos de la Gobernanza, Coordinación e Implementación",
+        "fecha": "",
+        "descripcion": "",
+        "ruta_documento": "files/seminarios/",
+        "documento": "20200626 Barbara 2 - Digital Transformation (Fri 26).pdf"
+      },
+      {
+        "titulo": "OECD Recommendations for Digital Identity in Chile",
+        "fecha": "",
+        "descripcion": "Benjamin Welby / OECD",
+        "ruta_documento": "files/seminarios/",
+        "documento": "20200626 Ben OECD Recommendations for Digital Identity in Chile.pdf"
+      },
+      {
+        "titulo": "COVID-19: Impacto en servicios digitales y el desafío de la Interoperabilidad",
+        "fecha": "",
+        "descripcion": "Francisco Carillo / Clase Media Protegida",
+        "ruta_documento": "files/seminarios/",
+        "documento": "COVID y Servicios Digitales_ Fco Carrillo_ Seminario OCDE.pptx"
+      },
+      {
+        "titulo": "La hoja de ruta de la Identidad Digital en el Gobierno de Chi",
+        "fecha": "",
+        "descripcion": "Pedro Lizana / División de Gobierno Digital",
+        "ruta_documento": "files/seminarios/",
+        "documento": "Ruta de la Identidad Digital Chile_PLizana_ Seminario OCDE .pdf"
+      },
+      {
+        "titulo": "Un Estado amigable, ágil e innovador ",
+        "fecha": "",
+        "descripcion": "Roman Yosif / División de Gobierno Digital",
+        "ruta_documento": "files/seminarios/",
+        "documento": "Un Estado amigable, ágil e innovador_ RYosif_Seminario OCDE.pdf"
+      },
+      {
+        "titulo": "Agenda de Modernización del Estado",
+        "fecha": "25 de Julio del 2019",
+        "descripcion": "La Agenda de Modernización del Estado fue presentada el 25 de julio del año 2019 por el Presidente de la República a todos los ciudadanos.  La Agenda de Modernización del Estado consta de tres estrategias transversales que consisten en un conjunto de instrucciones e iniciativas que son diseñadas y coordinados desde el Centro de Gobierno para asegurar que, en cada una de estas materias que son comunes a todas las instituciones, avancen coordinadamente hasta lograr una base mínima. Estas estrategias son: estrategia de Transformación Digital, estrategia de gobierno basado en datos y estrategia de servicios compartidos.",
+        "ruta_documento": "files/agenda/",
+        "documento": "AMD.pdf"
+      },
+      {
+        "titulo": "Informe de Avance de la Agenda de Modernización del Estado",
+        "fecha": "",
+        "descripcion": "",
+        "ruta_documento": "files/agenda/",
+        "documento": "avances agenda.pdf"
+      },
+      {
+        "titulo": "Reporte",
+        "fecha": "30 de Junio del 2020",
+        "descripcion": "Reporte de Glosas al 30 de junio 2020",
+        "ruta_documento": "files/presupuesto/",
+        "documento": "200630 reporte glosas.docx"
+      }
+            
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

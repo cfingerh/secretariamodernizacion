@@ -1,0 +1,117 @@
+{% load staticfiles %} {% load humanize %} {% load l10n %} {% load mathfilters %} {% load tz %}
+
+<html>
+<style type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet">
+</style>
+
+<body>
+    <div class="page-indice">
+        <div class="titulo" style="text-align: center; padding: 10px">
+            Certificado de Cumplimiento de Requisitos<br />
+            Indicador de Satisfacción Neta año 2020
+        </div>
+        <div style="text-align: center; padding: 20px">
+            <img src="{{static_url}}/media/logo.png" style="width: 100px" />
+        </div>
+
+        <h4>Servicio: {{carga.service.name}}</h4>
+        <h4>Ministerio: {{carga.service.ministry.name}}</h4>
+
+        La Secretaría de Modernización del Ministerio de Hacienda en su calidad de Red de Expertos del Indicador de satisfacción neta, certifica que esta Institución cumplió durante el año 2020 con los siguientes requisitos técnicos del indicador:
+
+        <div class="item">
+            1.- El diseño muestral y su aplicación considera a los usuarios de los canales presencial, telefónico y digital, según corresponda, midiendo los servicios relevantes dirigidos o que se relacionen con usuarios finales (requisito técnico N°1):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            2.- El muestreo es simple y aleatorio, considerando varianza máxima y un nivel de confianza del 95% y cuando corresponde corrección por finitud (requisito técnico N°2):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            3.- La muestra encuestada es representativa de un marco de usuarios debidamente definido, representativa a nivel nacional y seleccionada aleatoriamente, y desarrollada para obtener un error muestral total máximo de 2,5% (requisito técnico N°3):
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />No Cumple
+            <br>
+            <br>
+            <ul>
+                La muestra obtenida no alcanza el tamaño suficiente para cumplir con el 2.5% de error muestral.
+                Se hacen presente los siguientes puntos:
+                <li>El servicio inicialmente incorporado en la medición eran los Centros Diurnos, que por su dinámica (personas mayores que asisten a centros de actividades de SENAMA) favorecía una contactación directa y mayor tasa de respuesta, usando encuestas presenciales. Sin embargo, por la
+                    contingencia sanitaria vivida desde marzo los Centros Diurnos dejaron de operar.</li>
+                <li>Dada esta contingencia, el servicio que se incluyó en su reemplazo (Fono Mayor – Apoyo psicológico) presenta una dinámica de contacto menos frecuente y con mayor dificultad de contacto, al ser vía remota.</li>
+                <li>SENAMA y el proveedor enviaron antecedentes indicando los protocolos de contacto y estrategias para aumentar la probabilidad de participación, partiendo con información de contacto de buena calidad.</li>
+                <li>Prueba de ello es que la muestra obtenida abarca el 52,3% del universo definido (390 de 720 usuarios), una tasa de participación/ contacto bastante superior a las tasas de contacto de otros estudios (que no suelen superar el 30%).</li>
+                <li>Esta muestra representaría un 3,4% de error muestral, lo que representa una representatividad razonable para poder analizar a la población relevante.</li>
+                <li>Por otro lado, una muestra de 2,5% para este marco muestral implica una muestra de 490 casos, es decir el 68% del universo, lo que es porcentaje de participación muy exigente. En vista de ello el programa 2021 modificó el parámetro, indicando un error muestral de 5% para
+                    universos menores a 10.000 casos.</li>
+                <li>Por los puntos anteriormente expuestos, esta Red de Expertos considera que hay antecedentes para indicar que el incumplimiento de este requisito es imputable a causa externa.</li>
+            </ul>
+
+        </div>
+
+        <div class="item">
+            4.- La medición de satisfacción fue realizada siguiendo la metodología desarrollada por la Secretaría de Modernización del Ministerio de Hacienda la cual se encuentra publicada en https://satisfaccion.gob.cl (requisito técnico N°4):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            5.- La institución realizó todos los pasos administrativos requeridos y participó en el proceso licitatorio de compra colaborativa. Asimismo, la medición fue realizada por una empresa externa y fue ella quien subió la base con los resultados de la medición al portal
+            https://satisfaccion.gob.cl (requisito técnico N°5):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            6.- La Base de datos con resultados de la medición se encuentra disponible para ser publicada en el portal de satisfacción de servicios públicos en el formato y con la información solicitada (requisito técnico N°6):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            7.- La institución subió al portal de satisfacción de servicios públicos el informe final de su medición generado por la empresa externa:
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div style="text-align: center; padding: 10px">
+            <h4>Nombre del evaluador: Mathias Klingenberg</h4>
+        </div>
+
+        <hr />
+        <div class="footer" style="padding-top: 50px">
+            <br />
+            Subido : {{subido| localtime}}
+            <br />
+            Aprobado : {{aprobado| localtime}}
+            <br />
+            Archivo disponible en <a href="{{carga.data.url}}">{{carga.data.url}}</a>
+            <br />
+            Checksum : {{carga.data.checksum}} {% timezone "America/Santiago" %}
+            <br />
+            Certificado emitido el {{now}} {% endtimezone %}
+        </div>
+        <br />
+    </div>
+</body>
+
+</html>

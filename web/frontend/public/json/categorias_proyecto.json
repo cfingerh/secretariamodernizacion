@@ -1,0 +1,83 @@
+{
+  "data": {
+    "categorias": [
+      { 
+        "nombre": "Mejores Servicios del Estado", 
+        "proyecto": true,
+        "proceso": false,
+        "bg_class": "bg--green",
+        "outline_class": "outline--green",
+        "border_class": "border--green"
+      },
+      { 
+        "nombre": "Mejor Gestión del Estado", 
+        "proyecto": true,
+        "proceso": true,
+        "bg_class": "bg--calipso",
+        "outline_class": "outline--calipso",
+        "border_class": "border--calipso"
+      },
+      { 
+        "nombre": "Personas en el Estado", 
+        "proyecto": false,
+        "proceso": false,
+        "bg_class": "bg--purple",
+        "outline_class": "outline--purple",
+        "border_class": "border--purple"
+      },
+      { 
+        "nombre": "Transparencia y Probidad", 
+        "proyecto": false,
+        "proceso": true,
+        "bg_class": "bg--red",
+        "outline_class": "outline--red",
+        "border_class": "border--red"
+      },
+      { 
+        "nombre": "Mejor Institucionalidad", 
+        "proyecto": false,
+        "proceso": false,
+        "bg_class": "bg--orange",
+        "outline_class": "outline--orange",
+        "border_class": "border--orange"
+      },
+      { 
+        "nombre": "Desarrollo Local y Descentralizado", 
+        "proyecto": false,
+        "proceso": false,
+        "bg_class": "bg--grey",
+        "outline_class": "outline--grey",
+        "border_class": "border--grey"
+      },
+      { 
+        "nombre": "Eje Transversal", 
+        "proyecto": false,
+        "proceso": true,
+        "bg_class": "bg--dark-blue",
+        "outline_class": "outline--dark-blue",
+        "border_class": "border--dark-blue"
+      }
+
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

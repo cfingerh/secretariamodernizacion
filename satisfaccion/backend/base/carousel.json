@@ -1,0 +1,876 @@
+[
+    {
+        "nombre": "Direcci\u00f3n de Compras y Contrataci\u00f3n P\u00fablica (Compradores)",
+        "satisfaction_neta": 51.3,
+        "satisfaction_positive": 65.7,
+        "satisfaction_negative": 14.4,
+        "satisfactionweb_positive": 60.3,
+        "satisfactioncall_positive": 50.0,
+        "satisfactionpres_positive": null,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2015,
+            2017,
+            2019
+        ],
+        "historic_values": [
+            69.7,
+            65.4,
+            51.3
+        ]
+    },
+    {
+        "nombre": "ChileAtiende Digital",
+        "satisfaction_neta": 36.0,
+        "satisfaction_positive": 60.6,
+        "satisfaction_negative": 24.6,
+        "satisfactionweb_positive": 62.7,
+        "satisfactioncall_positive": 50.7,
+        "satisfactionpres_positive": 62.4,
+        "satisfactionredes_positive": 64.9,
+        "historic_years": [
+            2015,
+            2017,
+            2019
+        ],
+        "historic_values": [
+            27.0,
+            20.6,
+            36.0
+        ]
+    },
+    {
+        "nombre": "ChileAtiende Presencial (IPS)",
+        "satisfaction_neta": 38.9,
+        "satisfaction_positive": 62.6,
+        "satisfaction_negative": 23.7,
+        "satisfactionweb_positive": 60.1,
+        "satisfactioncall_positive": 52.4,
+        "satisfactionpres_positive": 72.8,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2015,
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            126.8,
+            67.4,
+            71.2,
+            38.9
+        ]
+    },
+    {
+        "nombre": "Subsecretar\u00eda de Salud P\u00fablica (COMPIN)",
+        "satisfaction_neta": 8.4,
+        "satisfaction_positive": 45.6,
+        "satisfaction_negative": 37.2,
+        "satisfactionweb_positive": 50.8,
+        "satisfactioncall_positive": 37.7,
+        "satisfactionpres_positive": 45.0,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            6.7,
+            24.8,
+            8.4
+        ]
+    },
+    {
+        "nombre": "Direcci\u00f3n del Trabajo",
+        "satisfaction_neta": 14.8,
+        "satisfaction_positive": 50.4,
+        "satisfaction_negative": 35.6,
+        "satisfactionweb_positive": 53.0,
+        "satisfactioncall_positive": 39.3,
+        "satisfactionpres_positive": 46.0,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2016,
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            38.4,
+            64.3,
+            46.1,
+            14.8
+        ],
+        "url_logo": "/img/iconos/trabajo.png"
+    },
+    {
+        "nombre": "Fondo Nacional de Salud",
+        "satisfaction_neta": 67.4,
+        "satisfaction_positive": 76.6,
+        "satisfaction_negative": 9.2,
+        "satisfactionweb_positive": 67.3,
+        "satisfactioncall_positive": 62.0,
+        "satisfactionpres_positive": 76.4,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            68.9,
+            57.4,
+            67.4
+        ],
+        "url_logo": "/img/iconos/salud.png"
+    },
+    {
+        "nombre": "Instituto de Seguridad Laboral",
+        "satisfaction_neta": 54.2,
+        "satisfaction_positive": 71.5,
+        "satisfaction_negative": 17.3,
+        "satisfactionweb_positive": 63.8,
+        "satisfactioncall_positive": 70.1,
+        "satisfactionpres_positive": 75.2,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            44.7,
+            54.2
+        ],
+        "url_logo": "/img/iconos/trabajo.png"
+    },
+    {
+        "nombre": "Servicio Nacional del Consumidor",
+        "satisfaction_neta": -4.1,
+        "satisfaction_positive": 42.5,
+        "satisfaction_negative": 46.6,
+        "satisfactionweb_positive": 50.1,
+        "satisfactioncall_positive": 49.6,
+        "satisfactionpres_positive": 55.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2015,
+            2017,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            10.6,
+            8.3,
+            16.9,
+            -4.1
+        ],
+        "url_logo": "/img/iconos/economia.png"
+    },
+    {
+        "nombre": "Servicio de Registro Civil e Identificaci\u00f3n",
+        "satisfaction_neta": 37.9,
+        "satisfaction_positive": 61.7,
+        "satisfaction_negative": 23.8,
+        "satisfactionweb_positive": 64.6,
+        "satisfactioncall_positive": 37.8,
+        "satisfactionpres_positive": 57.8,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2017,
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            44.7,
+            49.9,
+            57.4,
+            37.9
+        ],
+        "url_logo": "/img/iconos/registro.png"
+    },
+    {
+        "nombre": "Subsecretar\u00eda de Econom\u00eda y Empresas de Menor Tama\u00f1o",
+        "satisfaction_neta": 43.5,
+        "satisfaction_positive": 65.1,
+        "satisfaction_negative": 21.6,
+        "satisfactionweb_positive": 68.0,
+        "satisfactioncall_positive": 61.2,
+        "satisfactionpres_positive": 69.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            42.5,
+            43.5
+        ]
+    },
+    {
+        "nombre": "Superintendencia de Pensiones",
+        "satisfaction_neta": 3.8,
+        "satisfaction_positive": 46.0,
+        "satisfaction_negative": 42.2,
+        "satisfactionweb_positive": 42.6,
+        "satisfactioncall_positive": 29.0,
+        "satisfactionpres_positive": 45.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            45.6,
+            3.8
+        ],
+        "url_logo": "/img/iconos/social.png"
+    },
+    {
+        "nombre": "Superintendencia de Salud",
+        "satisfaction_neta": 19.7,
+        "satisfaction_positive": 53.6,
+        "satisfaction_negative": 33.9,
+        "satisfactionweb_positive": 50.0,
+        "satisfactioncall_positive": 48.8,
+        "satisfactionpres_positive": 54.4,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            45.8,
+            19.7
+        ],
+        "url_logo": "/img/iconos/salud.png"
+    },
+    {
+        "nombre": "Servicio de Tesorer\u00edas",
+        "satisfaction_neta": 44.1,
+        "satisfaction_positive": 64.9,
+        "satisfaction_negative": 20.8,
+        "satisfactionweb_positive": 71.9,
+        "satisfactioncall_positive": 44.3,
+        "satisfactionpres_positive": 63.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            52.4,
+            40.0,
+            44.1
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Tarapac\u00e1",
+        "satisfaction_neta": 21.2,
+        "satisfaction_positive": 48.8,
+        "satisfaction_negative": 27.6,
+        "satisfactionweb_positive": 68.8,
+        "satisfactioncall_positive": 52.0,
+        "satisfactionpres_positive": 70.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            60.7,
+            21.2
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Antofagasta",
+        "satisfaction_neta": 55.1,
+        "satisfaction_positive": 70.4,
+        "satisfaction_negative": 15.3,
+        "satisfactionweb_positive": 71.8,
+        "satisfactioncall_positive": 75.5,
+        "satisfactionpres_positive": 62.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            48.1,
+            55.1
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Atacama",
+        "satisfaction_neta": 28.5,
+        "satisfaction_positive": 57.7,
+        "satisfaction_negative": 29.2,
+        "satisfactionweb_positive": 72.1,
+        "satisfactioncall_positive": 73.3,
+        "satisfactionpres_positive": 80.4,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            49.1,
+            28.5
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Coquimbo",
+        "satisfaction_neta": 19.4,
+        "satisfaction_positive": 50.3,
+        "satisfaction_negative": 30.9,
+        "satisfactionweb_positive": 67.4,
+        "satisfactioncall_positive": 64.1,
+        "satisfactionpres_positive": 73.7,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            37.6,
+            19.4
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Valpara\u00edso",
+        "satisfaction_neta": 15.9,
+        "satisfaction_positive": 48.6,
+        "satisfaction_negative": 32.7,
+        "satisfactionweb_positive": 65.8,
+        "satisfactioncall_positive": 62.9,
+        "satisfactionpres_positive": 70.3,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            34.4,
+            15.9
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n del Libertador General Bernardo O'Higgins",
+        "satisfaction_neta": 19.2,
+        "satisfaction_positive": 50.3,
+        "satisfaction_negative": 31.1,
+        "satisfactionweb_positive": 67.5,
+        "satisfactioncall_positive": 60.2,
+        "satisfactionpres_positive": 70.5,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            30.8,
+            19.2
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n del Maule",
+        "satisfaction_neta": 25.2,
+        "satisfaction_positive": 53.3,
+        "satisfaction_negative": 28.1,
+        "satisfactionweb_positive": 66.2,
+        "satisfactioncall_positive": 67.5,
+        "satisfactionpres_positive": 69.0,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            38.8,
+            25.2
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n del Biob\u00edo",
+        "satisfaction_neta": 26.6,
+        "satisfaction_positive": 55.0,
+        "satisfaction_negative": 28.4,
+        "satisfactionweb_positive": 70.4,
+        "satisfactioncall_positive": 57.3,
+        "satisfactionpres_positive": 65.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            34.7,
+            26.6
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de la Araucan\u00eda",
+        "satisfaction_neta": 20.0,
+        "satisfaction_positive": 49.5,
+        "satisfaction_negative": 29.5,
+        "satisfactionweb_positive": 65.2,
+        "satisfactioncall_positive": 59.8,
+        "satisfactionpres_positive": 60.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            35.5,
+            20.0
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Los Lagos",
+        "satisfaction_neta": 13.9,
+        "satisfaction_positive": 47.1,
+        "satisfaction_negative": 33.2,
+        "satisfactionweb_positive": 65.9,
+        "satisfactioncall_positive": 55.5,
+        "satisfactionpres_positive": 59.8,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            31.0,
+            13.9
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Ays\u00e9n del Gral. Carlos Ib\u00e1\u00f1ez del Campo",
+        "satisfaction_neta": 14.8,
+        "satisfaction_positive": 43.9,
+        "satisfaction_negative": 29.1,
+        "satisfactionweb_positive": 63.2,
+        "satisfactioncall_positive": 68.3,
+        "satisfactionpres_positive": 69.7,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            30.1,
+            14.8
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Magallanes y Ant\u00e1rtica Chilena",
+        "satisfaction_neta": 7.7,
+        "satisfaction_positive": 44.3,
+        "satisfaction_negative": 36.6,
+        "satisfactionweb_positive": 61.5,
+        "satisfactioncall_positive": 38.4,
+        "satisfactionpres_positive": 51.2,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            28.3,
+            7.7
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n Metropolitana",
+        "satisfaction_neta": 19.9,
+        "satisfaction_positive": 50.7,
+        "satisfaction_negative": 30.8,
+        "satisfactionweb_positive": 64.6,
+        "satisfactioncall_positive": 53.9,
+        "satisfactionpres_positive": 63.4,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            30.1,
+            19.9
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Los R\u00edos",
+        "satisfaction_neta": 24.8,
+        "satisfaction_positive": 52.9,
+        "satisfaction_negative": 28.1,
+        "satisfactionweb_positive": 66.0,
+        "satisfactioncall_positive": 64.5,
+        "satisfactionpres_positive": 77.1,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            39.1,
+            24.8
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de Arica y Parinacota",
+        "satisfaction_neta": 28.4,
+        "satisfaction_positive": 53.3,
+        "satisfaction_negative": 24.9,
+        "satisfactionweb_positive": 83.7,
+        "satisfactioncall_positive": 48.7,
+        "satisfactionpres_positive": 74.1,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            36.5,
+            28.4
+        ]
+    },
+    {
+        "nombre": "Subsecretar\u00eda de Vivienda y Urbanismo",
+        "satisfaction_neta": 6.0,
+        "satisfaction_positive": 43.3,
+        "satisfaction_negative": 37.3,
+        "satisfactionweb_positive": 61.0,
+        "satisfactioncall_positive": 52.5,
+        "satisfactionpres_positive": 54.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            15.8,
+            6.0
+        ],
+        "url_logo": "/img/iconos/vivienda.png"
+    },
+    {
+        "nombre": "Instituto Nacional de Estad\u00edsticas",
+        "satisfaction_neta": 44.3,
+        "satisfaction_positive": 64.1,
+        "satisfaction_negative": 19.8,
+        "satisfactionweb_positive": 65.2,
+        "satisfactioncall_positive": 72.9,
+        "satisfactionpres_positive": null,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2015,
+            2017,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            38.9,
+            43.2,
+            45.6,
+            44.3
+        ],
+        "url_logo": "/img/iconos/estadistica.png"
+    },
+    {
+        "nombre": "Direcci\u00f3n de Compras y Contrataci\u00f3n P\u00fablica (Proveedores)",
+        "satisfaction_neta": 39.5,
+        "satisfaction_positive": 60.9,
+        "satisfaction_negative": 21.4,
+        "satisfactionweb_positive": 58.3,
+        "satisfactioncall_positive": 61.2,
+        "satisfactionpres_positive": 54.2,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2015,
+            2017,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            56.6,
+            68.2,
+            60.4,
+            39.5
+        ]
+    },
+    {
+        "nombre": "Fondo de Solidaridad e Inversion Social",
+        "satisfaction_neta": 48.7,
+        "satisfaction_positive": 67.8,
+        "satisfaction_negative": 19.1,
+        "satisfactionweb_positive": null,
+        "satisfactioncall_positive": null,
+        "satisfactionpres_positive": null,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2019,
+            2020
+        ],
+        "historic_values": [
+            49.9,
+            48.7
+        ]
+    },
+    {
+        "nombre": "Superintendencia de Seguridad Social",
+        "satisfaction_neta": -17.5,
+        "satisfaction_positive": 36.0,
+        "satisfaction_negative": 53.5,
+        "satisfactionweb_positive": 49.0,
+        "satisfactioncall_positive": 37.8,
+        "satisfactionpres_positive": 55.2,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2016,
+            2018,
+            2019,
+            2020
+        ],
+        "historic_values": [
+            -0.6,
+            1.9,
+            -6.3,
+            -17.5
+        ],
+        "url_logo": "/img/iconos/social.png"
+    },
+    {
+        "nombre": "Servicio de Impuestos Internos",
+        "satisfaction_neta": 61.9,
+        "satisfaction_positive": 72.7,
+        "satisfaction_negative": 10.8,
+        "satisfactionweb_positive": 74.6,
+        "satisfactioncall_positive": 55.7,
+        "satisfactionpres_positive": 60.8,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2016,
+            2018,
+            2020
+        ],
+        "historic_values": [
+            43.6,
+            50.0,
+            61.9
+        ],
+        "url_logo": "/img/iconos/hacienda.png"
+    },
+    {
+        "nombre": "Archivo Nacional",
+        "satisfaction_neta": 37.3,
+        "satisfaction_positive": 61.7,
+        "satisfaction_negative": 24.4,
+        "satisfactionweb_positive": 63.7,
+        "satisfactioncall_positive": 47.1,
+        "satisfactionpres_positive": 62.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2018,
+            2020
+        ],
+        "historic_values": [
+            74.2,
+            37.3
+        ],
+        "url_logo": "/img/iconos/archivo.png"
+    },
+    {
+        "nombre": "Servicio Nacional de Capacitaci\u00f3n y Empleo",
+        "satisfaction_neta": 21.4,
+        "satisfaction_positive": 50.6,
+        "satisfaction_negative": 29.2,
+        "satisfactionweb_positive": 63.1,
+        "satisfactioncall_positive": 64.0,
+        "satisfactionpres_positive": 70.0,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            21.4
+        ]
+    },
+    {
+        "nombre": "Servicio Nacional de Pesca y Acuicultura",
+        "satisfaction_neta": 63.4,
+        "satisfaction_positive": 76.7,
+        "satisfaction_negative": 13.3,
+        "satisfactionweb_positive": 73.8,
+        "satisfactioncall_positive": 76.3,
+        "satisfactionpres_positive": 78.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            63.4
+        ]
+    },
+    {
+        "nombre": "Servicio Nacional de Aduanas",
+        "satisfaction_neta": -8.0,
+        "satisfaction_positive": 38.1,
+        "satisfaction_negative": 46.1,
+        "satisfactionweb_positive": 38.6,
+        "satisfactioncall_positive": null,
+        "satisfactionpres_positive": 55.6,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            -8.0
+        ]
+    },
+    {
+        "nombre": "SERVIU Regi\u00f3n de \u00d1uble",
+        "satisfaction_neta": 11.4,
+        "satisfaction_positive": 45.9,
+        "satisfaction_negative": 34.5,
+        "satisfactionweb_positive": 63.1,
+        "satisfactioncall_positive": 56.3,
+        "satisfactionpres_positive": 45.3,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            11.4
+        ]
+    },
+    {
+        "nombre": "Direcci\u00f3n General de Cr\u00e9dito Prendario",
+        "satisfaction_neta": 77.8,
+        "satisfaction_positive": 85.2,
+        "satisfaction_negative": 7.4,
+        "satisfactionweb_positive": 75.7,
+        "satisfactioncall_positive": 86.3,
+        "satisfactionpres_positive": 85.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            77.8
+        ]
+    },
+    {
+        "nombre": "Subsecretar\u00eda de Servicios Sociales",
+        "satisfaction_neta": 5.6,
+        "satisfaction_positive": 45.1,
+        "satisfaction_negative": 39.5,
+        "satisfactionweb_positive": 51.0,
+        "satisfactioncall_positive": null,
+        "satisfactionpres_positive": 54.5,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            5.6
+        ]
+    },
+    {
+        "nombre": "Junta Nacional de Auxilio Escolar y Becas",
+        "satisfaction_neta": 31.2,
+        "satisfaction_positive": 57.7,
+        "satisfaction_negative": 26.5,
+        "satisfactionweb_positive": null,
+        "satisfactioncall_positive": 47.2,
+        "satisfactionpres_positive": 54.9,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            31.2
+        ]
+    },
+    {
+        "nombre": "Servicio Nacional del Adulto Mayor",
+        "satisfaction_neta": 74.6,
+        "satisfaction_positive": 82.8,
+        "satisfaction_negative": 8.2,
+        "satisfactionweb_positive": null,
+        "satisfactioncall_positive": null,
+        "satisfactionpres_positive": null,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            74.6
+        ]
+    },
+    {
+        "nombre": "Caja de Previsi\u00f3n de la Defensa Nacional",
+        "satisfaction_neta": 47.4,
+        "satisfaction_positive": 67.2,
+        "satisfaction_negative": 19.8,
+        "satisfactionweb_positive": 51.4,
+        "satisfactioncall_positive": 66.4,
+        "satisfactionpres_positive": 71.0,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            47.4
+        ]
+    },
+    {
+        "nombre": "Direcci\u00f3n de Previsi\u00f3n de Carabineros de Chile",
+        "satisfaction_neta": 38.3,
+        "satisfaction_positive": 61.4,
+        "satisfaction_negative": 23.1,
+        "satisfactionweb_positive": 60.5,
+        "satisfactioncall_positive": 55.3,
+        "satisfactionpres_positive": 70.1,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            38.3
+        ]
+    },
+    {
+        "nombre": "Subsecretar\u00eda del Interior",
+        "satisfaction_neta": -18.7,
+        "satisfaction_positive": 33.8,
+        "satisfaction_negative": 52.5,
+        "satisfactionweb_positive": 35.7,
+        "satisfactioncall_positive": 20.4,
+        "satisfactionpres_positive": 37.8,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            -18.7
+        ]
+    },
+    {
+        "nombre": "Superintendencia de Electricidad y Combustibles",
+        "satisfaction_neta": -36.3,
+        "satisfaction_positive": 25.4,
+        "satisfaction_negative": 61.7,
+        "satisfactionweb_positive": 33.9,
+        "satisfactioncall_positive": 30.1,
+        "satisfactionpres_positive": 40.2,
+        "satisfactionredes_positive": null,
+        "historic_years": [
+            2020
+        ],
+        "historic_values": [
+            -36.3
+        ]
+    }
+]

@@ -1,0 +1,69 @@
+{
+  "data": {
+    "panel_1": {
+      "110_1": "¿",
+      "28": "Qué es la",
+      "35": "Secretaría de",
+      "40": "Modernización",
+      "110_2": "?",
+      "texto": "<p class='home__text-description'>La Secretaría de Modernización del Estado del Ministerio de Hacienda es la encargada de diseñar, gestionar y apoyar el desarrollo de proyectos transversales de modernización del Estado<\/p><p class='home__text-description'>Modernizar el Estado es avanzar hacia un Estado al servicio de las personas, que orienta toda su inteligencia, recursos y acción para superar sus expectativas, en calidad, oportunidad, cercanía y generación de confianzas; es configurar un Estado que reconoce que sus dueños son las personas, no la burocracia.<\/p><p class='home__text-description'>Uno de sus objetivos principales es el colaborar con la mejora de la satisfacción de los ciudadanos con los servicios que ofrece el Estado, mediante una mejora de sus capacidades de gestión en la entrega de dichos servicios. Es por esto que se acompaña a diversas instituciones públicas en el diseño, implementación y evaluación de proyectos de modernización, siempre con el foco de las necesidades y expectativas de sus usuarios.<\/p>"
+    },
+    "panel_2": {
+      "titulo": "¿Cómo lo hacemos?",
+      "items": [
+        {
+          "titulo": "Midiendo",
+          "descripcion": "Medimos la satisfacción usuaria de los ciudadanos con los servicios del Estado",
+          "boton_titulo": "Conoce más",
+          "boton_ruta_externo": "https://www.satisfaccion.gob.cl/",
+          "cover": "/img/icon_midiendo.svg"
+        },
+        {
+          "titulo": "Modernizando",
+          "descripcion": "Modernizar al Estado es eliminar la burocracia y facilitar la vida de los ciudadanos",
+          "boton_titulo": "Conoce más",
+          "boton_ruta": "/documentos",
+          "cover": "/img/icon_modernizando.svg"
+        },
+        {
+          "titulo": "Acompañando",
+          "descripcion": "Coordinamos a los organismos del Estado y los acompañamos en todas las etapas y requerimientos para la modernización del Estado",
+          "boton_titulo": "Conoce más",
+          "boton_ruta": "/proyectos",
+          "cover": "/img/icon_acompanando.svg"
+        },
+        {
+          "titulo": "Proponiendo",
+          "descripcion": "Levantando las necesidades de mejora en el Estado y creando soluciones transversales que permitan mejorar la vida de las personas.",
+          "boton_titulo": "Conoce más",
+          "boton_ruta": "/procesos",
+          "cover": "/img/icon_proponiendo.svg"
+        }
+      ]
+    },
+    "panel_3": {
+      "titulo": "Destacados",
+      "slider_items": []
+    }
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

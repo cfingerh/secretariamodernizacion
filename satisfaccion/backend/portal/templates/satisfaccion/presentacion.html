@@ -1,0 +1,122 @@
+{% load static %} {% load humanize %} {% load l10n %} {% load mathfilters %} {% load tz %}
+
+<html>
+<style type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet">
+</style>
+
+<body>
+  <div class="page-indice">
+    <div style="text-align: center; padding: 20px">
+      <img src="{{static_url}}/media/logo.png" style="width: 100px" />
+    </div>
+    <div class="titulo" style="text-align: center; padding: 10px">
+      Certificado de Cumplimiento de Requisitos<br />
+      Indicador de Satisfacción Neta año 2021
+    </div>
+
+    <h4>Servicio: {{carga.institucion.nombre}}</h4>
+    <hr>
+
+
+    La Secretaría de Modernización del Ministerio de Hacienda en su calidad de Red de Expertos del Indicador de satisfacción neta, certifica que esta Institución cumplió durante el año 2021 con los siguientes requisitos técnicos del
+    indicador:
+
+    {% if carga.institucion.id == 34 %}
+    <div class="item">
+      1.- El diseño muestral y su aplicación considera a los usuarios de los canales de atención, según corresponda, de los Servicios Regionales de Vivienda y Urbanización, presentando los resultados agregados, de todas las regiones del
+      país,
+      midiendo los servicios relevantes dirigidos o que se relacionen con usuarios finales, previa revisión y opinión técnica de la Red de Expertos (requisito técnico N°2):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+    {% else %}
+
+
+    <div class="item">
+      1.- El diseño muestral y su aplicación considera a los usuarios de los canales de atención según corresponda, midiendo los servicios relevantes dirigidos o que se relacionen con usuarios finales, previa revisión y opinión técnica de
+      la Red de
+      Expertos (requisito técnico N°2):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+    {% endif %}
+
+    <div class="item">
+      2.- El marco muestral para la institución se organiza en grupos o estratos, definidos por servicios y/o canal a través del cual se entrega. En cada grupo o estrato el muestreo es simple y aleatorio, considerando varianza máxima y un
+      nivel de
+      confianza del 95% y cuando corresponde corrección por finitud (límite) (requisito técnico N°3):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+
+    <div class="item">
+      3.- La muestra encuestada es representativa de un marco de usuarios definido y representativa a nivel nacional, seleccionada aleatoriamente, con un error muestral total efectivo de máximo 2,5% para un marco muestral mayor o igual a
+      10.000, y un
+      error muestral total efectivo de máximo 5,0% para un marco muestral menor a 10.000 (requisito técnico N°4):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+
+    <div class="item">
+      4.- La medición de satisfacción fue realizada siguiendo la metodología desarrollada por la Secretaría de Modernización del Ministerio de Hacienda la cual se encuentra publicada en https://satisfaccion.gob.cl (requisito técnico N°5):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+
+    <div class="item">
+      5.- La medición fue realizada por una empresa externa contratada a través de un proceso sujeto a las normas de la ley N°19.886 de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, en coordinación con la
+      Red de
+      Expertos (requisito técnico N°6):
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+
+    {% if carga.institucion.id == 5 %}
+    <div class="item">
+      6.- El Servicio comprometió el Objetivo de Gestión Calidad de Servicios de acuerdo al Programa Marco 2021, no obstante el indicador Porcentaje de satisfacción neta con los servicios recibidos de la Institución, se comprometió a medir
+      correctamente en el segundo semestre 2021 con la base de datos de atenciones presenciales que se ejecuten durante 2021, acordando las definiciones de la muestra, trámites y canales de atención de común acuerdo con la Red de Expertos,
+      de
+      acuerdo a las definiciones estratégicas y políticas de la CMF.
+      <br />
+      <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+      <br />
+      <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+    </div>
+    {% endif %}
+
+
+    <div style="text-align: center; padding: 10px">
+      <h4>Nombre del evaluador: Tomás Aguayo</h4>
+    </div>
+
+    <hr />
+    <div class="footer" style="padding-top: 50px">
+      <br />
+      Subido : {{subido| localtime}}
+      <br />
+      Aprobado : {{aprobado| localtime}}
+      <br />
+      Archivo disponible en <a href="{{carga.data.url}}">{{carga.data.url}}</a>
+      <br />
+      Checksum : {{carga.data.checksum}} {% timezone "America/Santiago" %}
+      <br />
+      Certificado emitido el {{now}} {% endtimezone %}
+    </div>
+    <br />
+  </div>
+</body>
+
+</html>

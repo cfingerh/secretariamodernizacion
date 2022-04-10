@@ -1,0 +1,62 @@
+custom: 
+  wsgi:
+    app: conf.wsgi.application
+    packRequirements: false
+  pythonRequirements:
+    slim: true
+    layer: true
+  variables:
+    dev: ${file(./variables_dev.yml)}
+    prod: ${file(./variables_prod.yml)}
+  apigwBinary:
+    types:
+      - '*/*'
+
+service: sls-statisfaccion2021
+
+provider:
+  name: aws
+  region: sa-east-1
+  stage: ${opt:stage,'dev'}
+  timeout: 120
+  # profile: sectorpublico
+  memorySize: 2500
+  runtime: python3.8
+  deploymentBucket:
+    name: analyze-sectorpublico-deployment-bucket-sa
+  apiGateway:
+    binaryMediaTypes:
+      - '*/*'
+
+package:
+  individually: true
+  excludeDevDependencies: false
+  exclude:
+   - "env/**"
+   - "package/**"
+   - "node_modules/**"
+   - "desarrollo/**"
+   - "datos.*"
+   - "*.zip"
+  #  - "*.backup"
+  #  - "*.sublime-workspace"
+
+functions:
+  principal:
+    environment: ${self:custom.variables.${self:provider.stage}}
+    handler: wsgi_handler.handler
+    layers:
+      - arn:aws:lambda:sa-east-1:954447487285:layer:weasyprint-layer-python38:1
+      - { Ref: PythonRequirementsLambdaLayer }
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+    package: {}  # https://github.com/serverless/serverless/issues/6752
+
+
+plugins:
+  - serverless-wsgi
+  - serverless-python-requirements
+  - serverless-offline
+  - serverless-apigw-binary
+  - serverless-apigwy-binary

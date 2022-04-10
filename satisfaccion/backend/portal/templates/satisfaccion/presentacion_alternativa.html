@@ -1,0 +1,106 @@
+{% load staticfiles %} {% load humanize %} {% load l10n %} {% load mathfilters %} {% load tz %}
+
+<html>
+<style type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet">
+</style>
+
+<body>
+    <div class="page-indice">
+        <div class="titulo" style="text-align: center; padding: 10px">
+            Certificado de Cumplimiento de Requisitos<br />
+            Indicador de Satisfacción Neta año 2020
+        </div>
+        <div style="text-align: center; padding: 20px">
+            <img src="{{static_url}}/media/logo.png" style="width: 100px" />
+        </div>
+
+        <h4>Servicio: {{carga.service.name}}</h4>
+        <h4>Ministerio: {{carga.service.ministry.name}}</h4>
+
+        La Secretaría de Modernización del Ministerio de Hacienda en su calidad de Red de Expertos del Indicador de satisfacción neta, certifica que esta Institución cumplió durante el año 2020 con los siguientes requisitos técnicos del indicador:
+
+        <div class="item">
+            1.- El diseño muestral y su aplicación considera a los usuarios de los canales presencial, telefónico y digital, según corresponda, midiendo los servicios relevantes dirigidos o que se relacionen con usuarios finales (requisito técnico N°1):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            2.- El muestreo es simple y aleatorio, considerando varianza máxima y un nivel de confianza del 95% y cuando corresponde corrección por finitud (requisito técnico N°2):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            3.- La muestra encuestada es representativa de un marco de usuarios debidamente definido, representativa a nivel nacional y seleccionada aleatoriamente, y desarrollada para obtener un error muestral total máximo de 2,5% (requisito técnico N°3):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            4.- La medición de satisfacción fue realizada siguiendo la metodología desarrollada por la Secretaría de Modernización del Ministerio de Hacienda la cual se encuentra publicada en https://satisfaccion.gob.cl (requisito técnico N°4):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            5.- La institución realizó todos los pasos administrativos requeridos y participó en el proceso licitatorio de compra colaborativa. Asimismo, la medición fue realizada por una empresa externa y fue ella quien subió la base con los resultados de la medición al portal
+            https://satisfaccion.gob.cl (requisito técnico N°5):
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />No Cumple
+            <br>
+            <br>
+            Observación: Si bien la institución realizó todos los pasos administrativos requeridos y participó en el proceso licitatorio de compra colaborativa Licitación ID N° 1060323-3-LR20, por causas externas a ella este proceso se declaró parcialmente desierto, por lo que el servicio se
+            contrató mediante trato directo ID Nº 851556-31-SE20 de la Subsecretaría de Hacienda, lo que fue comunicado mediante Ord. N° 2827 del 11 de diciembre de 2020 a la Dirección de Presupuestos.
+        </div>
+
+        <div class="item">
+            6.- La Base de datos con resultados de la medición se encuentra disponible para ser publicada en el portal de satisfacción de servicios públicos en el formato y con la información solicitada (requisito técnico N°6):
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div class="item">
+            7.- La institución subió al portal de satisfacción de servicios públicos el informe final de su medición generado por la empresa externa:
+            <br />
+            <img src="{{static_url}}/media/check-true.png" style="width: 10px; padding-right: 10px" />Cumple
+            <br />
+            <img src="{{static_url}}/media/check-false.png" style="width: 10px; padding-right: 10px" />No Cumple
+        </div>
+
+        <div style="text-align: center; padding: 10px">
+            <h4>Nombre del evaluador: Mathias Klingenberg</h4>
+        </div>
+
+        <hr />
+        <div class="footer" style="padding-top: 60px">
+            <br />
+            Subido : {{subido| localtime}}
+            <br />
+            Aprobado : {{aprobado| localtime}}
+            <br />
+            Archivo disponible en <a href="{{carga.data.url}}">{{carga.data.url}}</a>
+            <br />
+            Checksum : {{carga.data.checksum}} {% timezone "America/Santiago" %}
+            <br />
+            <br />
+            Certificado emitido el {{now}} {% endtimezone %}
+        </div>
+        <br />
+    </div>
+</body>
+
+</html>

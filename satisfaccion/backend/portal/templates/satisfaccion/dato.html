@@ -1,0 +1,43 @@
+{% load static %} {% load humanize %} {% load l10n %} {% load mathfilters %} {% load tz %}
+
+<html>
+<style type="text/css">
+
+</style>
+
+<body>
+  <div class="page-indice">
+    <div class="titulo">Carga Datos 2021</div>
+
+    <h4>Servicio: {{carga.institucion.nombre}}</h4>
+
+    <hr>
+    La Base de datos con resultados de la medición se encuentra disponible para ser publicada en el portal de satisfacción de servicios públicos en el formato y con la información solicitada:
+    <br />
+    <br />
+    La institución realizó todos los pasos administrativos requeridos.
+    <br>
+    Asimismo, la medición fue realizada por una empresa externa y fue ella quien subió la base con los resultados de la medición al portal.
+
+    <br />
+    <br />
+    El certificado final se obtiene una vez subida la presentación final y sea aprobada por el evaluador.
+    <hr />
+    <div class="footer" style="padding-top: 350px">
+      <br />
+      Subido : {{subido| localtime}}
+      <br />
+      Aprobado : {{aprobado| localtime}}
+      <br />
+      Archivo disponible en <a href="{{carga.data.url}}">{{carga.data.url}}</a>
+      <br />
+      Checksum : {{carga.data.checksum}} {% timezone "America/Santiago" %}
+      <br />
+      <br />
+      Certificado emitido el {{now}} {% endtimezone %}
+    </div>
+    <br />
+  </div>
+</body>
+
+</html>

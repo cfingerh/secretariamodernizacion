@@ -1,0 +1,141 @@
+{
+  "data": {
+    "proyectos": [
+      {
+        "id": 1,
+        "titulo": "Portal Ciclo Laboral",
+        "cover": "img/icon_portal-ciclo-laboral.svg",
+        "descripcion_larga": "<p>En conjunto con la Dirección del Trabajo, y con el fin de disminuir los trámites presenciales de los ciudadanos, logramos disponibilizar el portal <a href='https://midt.dirtrab.cl' target='_blank'>https://midt.dirtrab.cl</a>, en el cual se pueden realizar más de 60 trámites, entre los que destacan: firma de contrato de trabajo, carta de renuncia, constancia laboral, declaración de jornadas extraordinarias y finiquito laboral, todos sin necesidad de asistir a una notaría.</p><p>Adicionalmente estamos trabajando en el Libro de Remuneraciones Electrónico del Estado, el cual permitirá llevar una mejor fiscalización del pago de cotizaciones, ayudar a las empresas a llevar un registro de sus trabajadores en una plataforma gratuita y al trabajador poder tener la seguridad de que en caso de ser despedido el monto de su finiquito será calculado de modo correcto, siendo el Estado el garante de que dicho monto es el indicado.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "Dirección del Trabajo, Registro Civil y AFC",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": [ "Realización de más de 60 trámites 100% online, destacando: Contrato de trabajo, renuncia voluntaria, constancia laboral y finiquito.", 
+          "Adopción incremental del uso del portal MiDT.",
+          "Tramitación de Pactos de Reducción de Jornada Laboral, completamente online." 
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Nueva Tienda de Convenio Marco",
+        "cover": "img/icon_convenio-marco.svg",
+        "descripcion_larga": "<p>Junto con la Dirección de Compras y Contrataciones Públicas, se redefinió el modelo actual de Convenio Marco con el fin de aumentar la eficiencia en las compras públicas, esto debido a los altos costos y riesgos operacionales del modelo de convenio marco inicial, la falta de control y monitoreo sobre los ciclos de contrataciones públicas y la falta de optimización asociada a los procesos de compras y gestión de contratos.</p><p>Para abordar estos desafíos, se rediseñó su gestión y operación, y dadas las importantes oportunidades de mejora respecto a la satisfacción de usuarios y la eficiencia y eficacia del modelo, es que se comenzó con una renovación gradual de la tienda electrónica, con el fin de convertirla en una plataforma de e-commerce de última generación para el Estado.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "ChileCompra",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejor Gestión del Estado",
+        "logros": [ "Mejoras en la experiencia usuaria de la plataforma <a href='https://www.mercadopublico.cl/Home' target='_blank'>mercadopublico.cl</a>", 
+          "Incorporación de 4 rubros: ferretería y servicios, aseo e higiene, emergencia y administración y entrega de beneficios.",
+          "Estandarización de productos, diseño más flexible y automatización del convenio."
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Compra Ágil",
+        "cover": "img/icon_compra-agil.svg",
+        "descripcion_larga": "<p>Esta nueva modalidad de compra desarrollada también en conjunto con la Dirección de Compras y Contrataciones Públicas, permite a los organismos públicos adquirir de manera más expedita y menos burocrática a través de <a href='https://www.mercadopublico.cl/Home' target='_blank'>mercadopublico.cl</a>. Los proveedores pueden enviar sus cotizaciones y vender sus productos por un monto igual o inferior a 30UTM. Entre sus principales beneficios, destacan la mayor participación de proveedores, lo que genera más competitividad siendo también una plataforma sencilla y orientada al usuario.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "ChileCompra",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejor Gestión del Estado",
+        "logros": [ "Agilizar compras del Estado, en una plataforma enfocada al usuario.", 
+          "Más de 12.000 órdenes de compra desde lanzamiento (abril 2020).", 
+          "Más de 7.000 millones de pesos transados, beneficiando a más de 3.500 proveedores."
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Licencia Médica",
+        "cover": "img/icon_licencia-medica.svg",
+        "descripcion_larga": "<p>El objetivo principal de este proyecto, es la reducción de los tiempos de tramitación de las licencias médicas. Para conseguir este objetivo, la Secretaría de Modernización en conjunto con la Comisión de Medicina Preventiva e Invalidez y la Superintendencia de Seguridad Social, han focalizado el trabajo en elevar la eficiencia global e implementar plataformas que faciliten la tramitación de manera remota, logrando así simplificar el proceso y entregar información de manera oportuna y de calidad a los usuarios, salvaguardando sus derechos en salud y poniendo foco en la cercanía, con tal de incrementar los niveles de satisfacción con los servicios prestados y fortalecer la función de fiscalización basada en datos.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "Comisión de Medicina Preventiva e Invalidez (COMPIN) y la Superintendencia de Seguridad Social ",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": [ "Digitalización del  85% de las licencias médicas.", 
+          "Disponibilización en el sitio <a href='https://www.milicenciamedica.cl/' target='_blank'>www.milicenciamedica.cl</a>, la revisión con clave única o con el número de folio de la licencia, el estado de la licencia médica (aprobada, rechazada o pendiente), , con la posibilidad de apelar al rechazo de la licencia médica de forma remota.", 
+          "Reducción de los tiempos de espera de resolución de licencia médica de 65 a 30 días.", 
+          "Trámite de Recurso de Reposición Online (Trabajadores Fonasa): este trámite ha presentado un alza desde enero 2020, teniendo un promedio mensual de 14.000 trámites al mes a nivel nacional."
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Registro de Discapacitados",
+        "cover": "img/icon_registro-de-discapacitados.svg",
+        "descripcion_larga": "<p>La credencial de discapacidad es un documento público cuyo fin es que los titulares del mismo puedan ampararse a la Ley de Discapacidad (Ley N°20.422). Portar este certificado conlleva grandes beneficios, desde ayudas técnicas en el SENADIS (Servicio Nacional de la Discapacidad) hasta exenciones arancelarias. En un trabajo colaborativo entre la COMPIN y la Secretaría de Modernización, se procedió a digitalizar el trámite.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "Comisión de Medicina Preventiva e Invalidez (COMPIN)",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": [ "Realización del trámite 100% online.", 
+          "Los antecedentes se encuentran completamente digitalizados para facilitar la revisión de antecedentes por parte de la comisión.", 
+          "Beneficiar a aproximadamente 5.000 personas al mes."
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "Gestión Documental",
+        "cover": "img/icon_gestor-documental.svg",
+        "descripcion_larga": "<p>En trabajo colaborativo con el Archivo Nacional, buscamos implementar un ecosistema normativo-tecnológico que permita la transferencia de documentos electrónicos desde las instituciones públicas hacia el Archivo Nacional. Para esto se pretende dotar de un sistema para recibir transferencias de documentos electrónicos generados por instituciones públicas, producir directrices técnicas, proponer normativa asociada y generar productos que faciliten su implementación, lo cual permitirá sentar las bases del sistema de gestión documental del Estado.</p><p>Al igual que los documentos en papel producidos por el Estado son transferidos al Archivo Nacional, los documentos nativamente digitales que genera actualmente cada organismo también serán depositados virtualmente en la institución. Esto permitirá entregar herramientas de búsqueda que sean accesibles 24/7 para la comunidad, desde cualquier parte de Chile y el mundo acercando el trabajo del Archivo Nacional a la comunidad a través de herramientas tecnológicas adecuadas para este propósito.</p>",
+        "estado": "En proceso",
+        "instituciones_asociadas": "Archivo Nacional, Superintendencia de Casinos y Juegos, Administradora de los Tribunales Tributarios y Aduaneros, Corfo, Vialidad (MOP), Dirección del Trabajo",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejor Gestión del Estado",
+        "logros": [ "Entrega de los módulos de transferencia (en segunda versión), almacenamiento intermedio (primera versión) y motor de consultas (primera versión)." ]
+      },
+      {
+        "id": 7,
+        "titulo": "Registros Digitales",
+        "cover": "img/icon_registros-digitales.svg",
+        "descripcion_larga": "<p>En conjunto con el Servicio de Registro Civil e Identificación buscamos reducir los costos de las transacciones de identificación y registro entre personas naturales y jurídicas y entre ellas con el Estado; asegurando con ello, la certeza jurídica y administrativa de las transacciones, con altos estándares tecnológicos de seguridad y protección de la información, y con capacidades, modelos de negocios y procesos para una operación sostenible en el tiempo entregando un servicio de calidad a las personas.Por su naturaleza y por la información que administra, el Servicio de Registro Civil e Identificación es clave en la estrategia transversal de Transformación Digital ya que una condición habilitante para ella es la capacidad de tener una Identidad Digital robusta y masiva siendo este servicio quien debe proveer esa capacidad. Debido a que son múltiples las actualizaciones requeridas se dividió el proyecto en varias etapas, las cuales por un tema de orden se esquematizaron en un dibujo de un edificio, donde cada uno de los pisos representa a las etapas a modernizar.</p><p><b>Piso 1:</b> Infraestructura y Nuevo Core Registral Identidad, desarrollando un nuevo sistema de base de datos y de infraestructura tecnológica.</p><p><b>Piso 2:</b> Interoperabilidad, ahorrando costos de transacción tanto para el ciudadano como para el Estado al disponibilizar servicios a otras instituciones del Estado.</p><p><b>Piso 3:</b> Repositorio Documental, stock histórico de documentos digitalizados para disminuir tiempos de atención.</p><p><b>Piso 4:</b> Consolidación de data, rescatar control de datos de identidad, logrando la soberanía de datos.</p><p><b>Piso 5:</b> Oficina Internet, fortaleciendo el canal digital y la autoatención.</p><p><b>Piso 6:</b> Migración de Registros al nuevo Sistema: Vehículos (RVM) – Prendas – Registro de Pers Jurídicas (RPJ) – Registro Penal Adolescente (RPA) – Registro de Profesionales (RPP).</p><p><b>Piso 7:</b> Migración de Registros al nuevo Sistema: Registros Vitales (NAC -MAT -DEF) – AUC (Acuerdo unión Civil).</p><p><b>Piso 8:</b> Migración de Registros al nuevo Sistema: Posesión Efectiva (POSEFECT) – Multas de Tránsito no pagadas (RMTNP) – Registro Nacional de No donantes (RNND) – CODIS – Reg Nacional de Discapacidad (DISC).</p>",
+        "estado": "Iniciado",
+        "instituciones_asociadas": "Servicio de Registro Civil e Identificación",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": []
+      },
+      {
+        "id": 8,
+        "titulo": "Notificador del Estado",
+        "cover": "img/icon_notificador-del-estado.svg",
+        "descripcion_larga": "<p>En la actualidad, las instituciones públicas del país, se ven enfrentadas al desafío de encontrar el mecanismo apropiado y óptimo para comunicarse con los ciudadanos de forma rápida y segura.</p><p>La Secretaría de Modernización en conjunto con diversas instituciones públicas del Estado, han estado trabajando en la creación de una plataforma centralizada, uniforme, eficaz y eficiente, para entregar información a los usuarios de los distintos servicios del Estado.</p><p>Esta plataforma permite a las instituciones tener una comunicación directa con los ciudadanos enviando notificaciones y acusar recibo de estas, lo que aumenta la seguridad de las comunicaciones Estado-Ciudadano al contar con un canal seguro y alternativo al correo electrónico.</p><p>Es en estos casos donde se hace imprescindible que los ciudadanos puedan contar con una herramienta que permita agilizar la comunicación entre ambas partes considerando características tales como el acuse de recibo automático posterior a la lectura de un mensaje, integración con sistemas de autenticación de uso masivo y conocidos como por ejemplo Clave Única, avisos a través de distintos medios de comunicación configurados por el usuario, entre otros.</p>",
+        "estado": "Iniciado",
+        "instituciones_asociadas": "",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": []
+      },
+      {
+        "id": 9,
+        "titulo": "Licencia de Conducir Digital",
+        "cover": "img/icon_licencia-de-conducir.svg",
+        "descripcion_larga": "<p>La Secretaría de Modernización del Estado del Ministerio de Hacienda, el Ministerio de Transportes y Telecomunicaciones, en colaboración con el Servicio de Registro Civil e Identificación y Carabineros de Chile, tenemos la misión de modificar la licencia de conductor hacia un documento más seguro. Para esto, se requiere poblar de forma correcta el Registro Nacional de Conductores de Vehículos Motorizados, como modificar datos y medidas de seguridad al diseño del documento. Se espera que, al contar con un Registro Nacional de Conductores confiable, los ciudadanos puedan contar con una aplicación que dé acceso a una versión digital de los datos de la licencia de conductor. Uno de los propósitos del proyecto es contar con un Registro moderno, confiable y seguro, que cumpla con las necesidades actuales de los municipios, del Ministerio de Transportes y Telecomunicaciones, de las entidades fiscalizadoras y de la ciudadanía. Como objetivo principal debemos resolver el problema de calidad y disponibilidad de la información, de interoperabilidad y de fraude asociado al proceso actual de otorgamiento y gestión de licencias de conducir, mejorando así la experiencia a nivel institucional y ciudadano.</p>",
+        "estado": "Iniciado",
+        "instituciones_asociadas": "Ministerio de Transportes y Telecomunicaciones, Servicio de Registro Civil e Identificación y Carabineros de Chile",
+        "contacto": "<span>Más información: <a href='mailto:secretariamodernizacion@hacienda.gov.cl'>secretariamodernizacion@hacienda.gov.cl</a></span>",
+        "categoria": "Mejores Servicios del Estado",
+        "logros": []
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

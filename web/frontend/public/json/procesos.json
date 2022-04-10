@@ -1,0 +1,62 @@
+{
+  "data": {
+    "procesos": [
+      {
+        "id": 1,
+        "titulo": "Encuesta de Satisfacción",
+        "cover": "img/icon_encuesta-satisfaccion.svg",
+        "descripcion_corta": "La Encuesta de Satisfacción es un termómetro con el que cuenta el Estado y con el cual podemos medir a las distintas instituciones y sus diversos...",
+        "descripcion_larga": "<p>La atención que los servicios públicos entregan a las personas en sus distintos canales y formas (trámites, orientación, recepción de solicitudes, etc.) es la forma cotidiana en que los ciudadanos se relacionan con su Estado. Por eso resulta clave medir cómo las personas evalúan esas interacciones.</p><p>La Secretaría de Modernización coordina la implementación de la Encuesta de Satisfacción Usuaria, mediante un instrumento estandarizado que permite la comparabilidad en el tiempo, así como el extraer aprendizajes de los procesos de atención entre las distintas instituciones.</p><p>Identificar los principales dolores de los ciudadanos al momento de ser atendidos permite focalizar los esfuerzos de mejora de las instituciones en su gestión.</p><p>Para mayor información y detalles visita <a href='https://www.satisfaccion.gob.cl/'>www.satisfaccion.gob.cl</a></p>",
+        "estado": "",
+        "instituciones_asociadas": [],
+        "contacto": "",
+        "categoria": "Mejor Gestión del Estado",
+        "logros": []
+      },
+      {
+        "id": 2,
+        "titulo": "Ley Transformación Digital",
+        "cover": "img/icon_ley-transformacion-digital.svg",
+        "descripcion_corta": "Un papel activo tuvo la Secretaría de Modernización en la redacción del proyecto que le da sustento legal a la Estrategia de Transformación Digital...",
+        "descripcion_larga": "<p>La Secretaría de Modernización es uno de los coautores del proyecto que le da sustento legal a la Estrategia de Transformación Digital del Estado, que busca establecer las bases para que cada servicio avance en la digitalización y así contar con un Estado cero filas y cero papel, donde la tramitación digital sea la regla general.</p><p>Este proyecto establece la interoperabilidad entre los servicios públicos, evitando que a las personas les vuelvan a pedir documentos que han sido emitidos por otras instituciones estatales.</p><p>Se estima que en promedio cada chileno realiza ocho trámites con el Estado al año, y en cada uno invierte 2,2 horas. A eso se suma el dinero que tiene que destinar a traslados y las complicaciones que puede acarrear tener que pedir los permisos para ausentarse de sus labores. Con esta ley, en el mediano plazo todos los trámites podrán realizarse desde un teléfono celular en pocos minutos.</p><p>Eso implicará además un significativo ahorro en papel, ya que se estima que el Estado destina anualmente 100 millones de dólares en compras de papel, servicios de impresión, archivadores y otros servicios asociados. Se espera que la digitalización de los procesos reduzca drásticamente estos costos.</p>",
+        "estado": "",
+        "instituciones_asociadas": [],
+        "contacto": "",
+        "categoria": "Eje Transversal",
+        "logros": []
+      },
+      {
+        "id": 3,
+        "titulo": "Datos Abiertos",
+        "cover": "img/icon_datos-abiertos.svg",
+        "descripcion_corta": "Existe consenso de que se requieren nuevos avances en instaurar una política de transparencia y apertura de datos en el Estado, de manera que pueda existir un mejor control social sobre el gasto...",
+        "descripcion_larga": "<p>Con el fin de fortalecer la institucionalidad del país generando confianza, cercanía, credibilidad, transparencia y apertura de datos en el Estado, es que en la Secretaría de Modernización estamos impulsando y trabajando en distintos proyectos de transparencia. Este plan considera para el 2021 mejorar los procesos de gestión e integración de información, disponibilizando los datos para facilitar el cumplimiento de informar a las entidades públicas. El plan está en estrecha relación con el sitio web <a href='https://gestion.gob.cl/'>www.gestion.gob.cl</a>, mejorando la calidad de la información y la accesibilidad, usabilidad y utilidad de la información de gestión por parte de las autoridades públicas y otorgando mayor transparencia para la ciudadanía. A través de este plan, se podrá facilitar el cumplimiento de las obligaciones de informar que establece la normativa vigente y las instituciones públicas que solicitan los reportes, además en este portal los ciudadanos podrán revisar detalles del Programa de Mejoramiento de Gestión (PMG).</p><p>También estamos trabajando en el mejoramiento de <a href='https://kpi.chilegestiona.cl/'>kpi.chilegestiona.cl</a>, portal de datos abiertos, que permite a las instituciones del Estado tener un mayor control de sus gastos y poder tomar decisiones tempranas sobre estos. Al ser un portal abierto, los ciudadanos y académicos pueden tener acceso a revisión de KPI por instituciones.</p>",
+        "estado": "",
+        "instituciones_asociadas": [],
+        "contacto": "",
+        "categoria": "Transparencia y Probidad",
+        "logros": []
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

@@ -1,0 +1,87 @@
+{
+  "data": {
+    "nosotros": [
+      {
+        "nombre": "Andrés Hernando",
+        "titulo": "Coordinador de Modernización",
+        "descripcion": "Ingeniero Civil y Magíster en Economía Aplicada de la Universidad de Chile. Posteriormente, Ph.D. en Economía en la Universidad de Harvard.\n Hasta su nombramiento en Hacienda era Coordinador Académico del Centro de Estudios Públicos (CEP). Antes se desempeñó como jefe de la División de Políticas Sociales del Ministerio de Desarrollo Social y posteriormente, como director de estudios del Centro de Estudios Horizontal. Actualmente se desempeña como profesor de la Escuela de Gobierno de la Universidad Adolfo Ibáñez en el Magíster en Economía y Políticas Públicas, y de Organización Industrial en la carrera de Ingeniería Comercial de la misma Universidad.",
+        "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-hernando-31796b5/",
+        "cover": "/img/nosotros_hernando.jpg",
+        "posicion": 1
+      },
+      {
+        "nombre": "María Alejandra Luza",
+        "titulo": "Subdirectora de Proyectos",
+        "descripcion": "Ingenieria Civil Industrial de la Universidad de Tarapacá, con diplomados en Inteligencia de Negocios y Gerencia Pública. Se ha desempeñado en áreas de gestión y liderando equipos de procesos y de tecnologías de información, implementando procesos de transformación digital en el sector público. Actualmente está en proceso de obtención del Magíster en Gestión y Políticas Públicas en la Universidad de Chile.",
+        "linkedin": "https://www.linkedin.com/in/alejandra-luza-gallegos-68735458/",
+        "cover": "/img/nosotros_luza.jpeg",
+        "posicion": 1
+      },
+      {
+        "nombre": "Macarena Torres Gómez",
+        "titulo": "Subdirectora Administración y Finanzas",
+        "descripcion": "Ingeniero Comercial de la Universidad Pedro de Valdivia y Contador Auditor de la Escuela de Contadores Auditores de Santiago. Se ha desempeñado como profesional en Administración Financiera y Operativa de Proyectos del Banco Interamericano del Desarrollo (BID).",
+        "linkedin": "https://www.linkedin.com/in/macarena-torres-g%C3%B3mez/",
+        "cover": "/img/nosotros_macarena.png",
+        "posicion": 1
+      },
+      {
+        "nombre": "Enzo Solari Brown",
+        "titulo": "Coordinador de Proyectos",
+        "descripcion": "Ingeniero Civil Industrial de la Universidad de Chile y Magíster en Ingeniería de Negocios con Tecnologías de Información de la misma Universidad. Se desempeñó como jefe de proyectos tecnológicos en el sector privado y anteriormente como consultor de negocios.",
+        "linkedin": "https://www.linkedin.com/in/enzo-solari-brown-70446969/",
+        "cover": "/img/nosotros_enzo.png",
+        "posicion": 2
+      },
+      {
+        "nombre": "Carlos Guzmán Cabezas",
+        "titulo": "Coordinador de Proyectos",
+        "descripcion": "Ingeniero Civil Industrial de la Universidad de Chile. Se desempeñó en el sector privado, con once años de experiencia laboral liderando proyectos tecnológicos para la industria Bancaria, cinco de ellos como Jefe de Proyectos Tecnológicos y los últimos seis años como Jefe de Departamento de Gestión.",
+        "linkedin": "https://www.linkedin.com/in/carlos-guzm%C3%A1n-33250323/",
+        "cover": "/img/nosotros_carlos.png",
+        "posicion": 2
+      },
+      {
+        "nombre": "Leslie Rahmer Lagos",
+        "titulo": "Coordinadora de Proyectos",
+        "descripcion": "Ingeniera en Administración de Empresas de la Universidad de las Américas, con diplomados en Dirección de Proyectos y Liderazgo de Equipos de Trabajo en la Pontificia Universidad Católica de Chile. Se ha desempeñado en Jefatura de Departamento en el Ministerio del Medio Ambiente, en Asesoría Administrativa Financiera en la Secretaría de Modernización del Estado y como Analista de Proyectos en la Coordinación de Política Digital del Servicio Nacional del Patrimonio Cultural. Actualmente se encuentra finalizando sus estudios en Ingeniería Comercial.",
+        "cover": "/img/nosotros_leslie.png",
+        "posicion": 2
+      },
+      {
+        "nombre": "Tomás Aguayo",
+        "titulo": "Coordinador de Proyectos",
+        "descripcion": "Ingeniero Comercial con mención en Economía de la Universidad de Chile. Actualmente está en proceso de obtención del Magíster en Análisis Económico también en la Universidad de Chile.",
+        "cover": "/img/nosotros_tomas.jpeg",
+        "posicion": 2
+      },
+      {
+        "nombre": "Francisca Vidal Ruíz",
+        "titulo": "Coordinadora de Proyectos",
+        "descripcion": "Ingeniera Civil Industrial de la Universidad de Chile, Magíster en Gestión y Políticas Públicas de la misma casa de estudios y Magíster en Asuntos Públicos de la Universidad de Princeton. Ha trabajado como consultora y directora de proyectos y estudios para el sector público con foco en innovación pública, evaluación de programas y planificación estratégica. ",
+        "cover": "/img/nosotros_francisca.jpeg",
+        "posicion": 2
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

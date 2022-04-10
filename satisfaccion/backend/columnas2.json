@@ -1,0 +1,1223 @@
+[
+    {
+        "descripcion": "Código de la institución según catálogo presupuestario",
+        "nombre": "cod_institucion",
+        "label": null
+    },
+    {
+        "descripcion": "Identificador único aleatorio del encuestado",
+        "nombre": "id_encuestado",
+        "label": null
+    },
+    {
+        "pendiente": "CF: No sé de donde se obtiene.",
+        "descripcion": "Identificación del trámite según base de datos",
+        "nombre": "BD_idtramite",
+        "label": "Identificación del trámite según base de datos",
+        "valores": {
+            "1": "Inscripción Atención Primaria",
+            "2": "Afiliación",
+            "3": "Venta MLE",
+            "4": "Certificados",
+            "5": "Otros"
+        }
+    },
+    {
+        "pendiente": "CF: No sé lo que es.",
+        "descripcion": "Método de levantamiento (CATI/ CAWI)",
+        "nombre": "BD_metodo",
+        "label": "Método de levantamiento (CATI/ CAWI)",
+        "valores": {
+            "1": "CATI",
+            "2": "CAWI"
+        }
+    },
+    {
+        "descripcion": "Canal de contacto, según base de datos",
+        "nombre": "BD_canal",
+        "label": "Canal de contacto, según base de datos",
+        "valores": {
+            "1": "Presencial",
+            "2": "Kiosco",
+            "3": "Web",
+            "4": "Telefónico"
+        }
+    },
+    {
+        "descripcion": "Fecha del trámite",
+        "nombre": "BD_f_tramite",
+        "label": "Fecha del trámite"
+    },
+    {
+        "descripcion": "Estado del Trámite",
+        "nombre": "BD_e_tramite",
+        "label": "Estado del Trámite"
+    },
+    {
+        "descripcion": "Días entre trámite y cierre (o fecha de encuesta)",
+        "nombre": "BD_dias_tramite",
+        "label": "Días entre trámite y cierre (o fecha de encuesta)"
+    },
+    {
+        "descripcion": "Variable1 de BBDD de segmento",
+        "nombre": "BD_segmento1",
+        "label": "Variable1 de BBDD de segmento",
+        "valores": {}
+    },
+    {
+        "descripcion": "Variable2 de BBDD de segmento",
+        "nombre": "BD_segmento2",
+        "label": "Variable2 de BBDD de segmento",
+        "valores": {}
+    },
+    {
+        "descripcion": "Variable3 de BBDD de segmento",
+        "nombre": "BD_segmento3",
+        "label": "Variable3 de BBDD de segmento"
+    },
+    {
+        "descripcion": "Número de interacciones en período",
+        "nombre": "PI1",
+        "label": "Número de interacciones en período",
+        "valores": {
+            "1": "Esta fue la primera vez en los últimos 6 meses",
+            "2": "De 2 a 4 veces en los últimos 6 meses",
+            "3": "De 5 a 10 veces en los últimos 6 meses",
+            "4": "11 veces o más en los últimos 6 meses",
+            "8": "No recuerda",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación Institución",
+        "nombre": "PI2",
+        "label": "Evaluación Institución",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: da confianza",
+        "nombre": "PI3_1",
+        "label": "Imagen: da confianza",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: es transparente",
+        "nombre": "PI3_2",
+        "label": "Imagen: es transparente",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: se preocupa por atender necesidades de usuarios",
+        "nombre": "PI3_3",
+        "label": "Imagen: se preocupa por atender necesidades de usuarios",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: se actualiza y moderniza",
+        "nombre": "PI3_4",
+        "label": "Imagen: se actualiza y moderniza",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: funcionarios comprometidos",
+        "nombre": "PI3_5",
+        "label": "Imagen: funcionarios comprometidos",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Imagen: satisface necesidades de usuarios",
+        "nombre": "PI3_6",
+        "label": "Imagen: satisface necesidades de usuarios",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Último trámite (verbatim)",
+        "nombre": "PEX01",
+        "label": "Último trámite (verbatim)"
+    },
+    {
+        "pendiente": "No sé si hay tabla general o cada servicio las define. A lo mejor, ya que podrían ser varios traḿites, los No Sabe y No responde debiesen ser 88 y 99",
+        "pendiente2": "Los que se muestran acá son de Fonasa",
+        "descripcion": "Codificación último trámite",
+        "nombre": "PEX01_COD",
+        "label": "Codificación último trámite",
+        "valores": {
+            "1": "Inscripción de Atención Primaria",
+            "2": "Afiliación (carentes/cotizantes)",
+            "3": "Venta MLE (modalidad libre elección)",
+            "4": "Certificados de Afiliación/No afiliación)",
+            "5": "Otros trámites (entregas pre folio recaudadores, solicitud de devolución de exceso (DPE))",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Tipo de Conexión a Internet",
+        "nombre": "PEX01_1",
+        "label": "Tipo de Conexión a Internet"
+    },
+    {
+        "descripcion": "Canal del trámite",
+        "nombre": "PEX02",
+        "label": "Canal del trámite",
+        "valores": {
+            "1": "Presencial",
+            "2": "Kiosco",
+            "3": "Web",
+            "4": "Telefónico",
+            "5": "Prestador MLE"
+        }
+    },
+    {
+        "pendiente": "CF: supongo que son minutos ....",
+        "descripcion": "Tiempo necesario para trámite (espera)",
+        "nombre": "PEC06_1",
+        "label": "Tiempo necesario para trámite (espera)"
+    },
+    {
+        "pendiente": "CF: supongo que son minutos ....",
+        "descripcion": "Tiempo necesario para trámite (encontrar información)",
+        "nombre": "PEC06_2",
+        "label": "Tiempo necesario para trámite (encontrar información)"
+    },
+    {
+        "descripcion": "Evaluación del Tiempo necesario para el tramite",
+        "nombre": "PEC07",
+        "label": "Evaluación del Tiempo necesario para el tramite",
+        "valores": {
+            "1": "Breve",
+            "2": "Adecuado",
+            "3": "Excesivo",
+            "4": "No sabe",
+            "5": "No responde"
+        }
+    },
+    {
+        "descripcion": "Es requisito para otro trámite",
+        "nombre": "PEX03_1",
+        "label": "Es requisito para otro trámite",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Para quien es el trámite (verbatim)",
+        "nombre": "PEX03_2",
+        "label": "Para quien es el trámite (verbatim)"
+    },
+    {
+        "descripcion": "Para quien es el trámite (codificado)",
+        "nombre": "PEX03_2_COD",
+        "label": "Para quien es el trámite (codificado)"
+    },
+    {
+        "descripcion": "Situación de urgencia del trámite",
+        "nombre": "PEX04",
+        "label": "Situación de urgencia del trámite",
+        "valores": {
+            "1": "Muy urgente (no podía esperar)",
+            "2": "Algo urgente (podía esperar hasta una semana)",
+            "3": "Poco urgente (podía esperar más de una semana)",
+            "4": "Nada urgente (podía hacerse en cualquier momento)",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Satisfacción con el servicio en último trámite",
+        "nombre": "PEX05",
+        "label": "Satisfacción con el servicio en último trámite",
+        "valores": {
+            "1": "1 Muy insatisfecho/a",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy satisfecho/a",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Razón satisfacción con el servicio (VERBATIM)",
+        "nombre": "PEX06",
+        "label": "Razón satisfacción con el servicio (VERBATIM)"
+    },
+    {
+        "descripcion": "Sabía dónde hacer el trámite",
+        "nombre": "PEX07_1",
+        "label": "Sabía dónde hacer el trámite",
+        "valores": {
+            "1": "Sí, ya lo sabía",
+            "2": "No lo sabía",
+            "8": "No recuerda",
+            "9": "No responde"
+        }
+    },
+    {
+        "pendiente": "CF: no entiendo estos PEX07_2 (este y los siguientes)",
+        "descripcion": "Dónde se informó",
+        "nombre": "PEX07_2",
+        "label": "Dónde se informó"
+    },
+    {
+        "descripcion": "Se informó por: Internet",
+        "nombre": "PEX07_2_1",
+        "label": "Se informó por: Internet",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Se informó por: ChileAtiende",
+        "nombre": "PEX07_2_2",
+        "label": "Se informó por: ChileAtiende"
+    },
+    {
+        "descripcion": "Se informó por: familiares o amigos",
+        "nombre": "PEX07_2_3",
+        "label": "Se informó por: familiares o amigos",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Se informó por: Otra Institución",
+        "nombre": "PEX07_2_4",
+        "label": "Se informó por: Otra Institución",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Otra institucion_cual (verbatim)",
+        "nombre": "PEX07_2_4o",
+        "label": "Otra institucion_cual (verbatim)"
+    },
+    {
+        "descripcion": "Se informó por: Televisión / Radio",
+        "nombre": "PEX07_2_5",
+        "label": "Se informó por: Televisión / Radio",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Se informó por: No Sabe",
+        "nombre": "PEX07_2_88",
+        "label": "Se informó por: No Sabe",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Se informó por: No Responde",
+        "nombre": "PEX07_2_99",
+        "label": "Se informó por: No Responde",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Medios para contactar a la institución",
+        "nombre": "PEC01",
+        "label": "Medios para contactar a la institución"
+    },
+    {
+        "descripcion": "Call center",
+        "nombre": "PEC01_01",
+        "label": "Call center",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Página Web",
+        "nombre": "PEC01_02",
+        "label": "Página Web",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Plataforma digital especializada",
+        "nombre": "PEC01_021",
+        "label": "Plataforma digital especializada"
+    },
+    {
+        "descripcion": "Correo Electrónico",
+        "nombre": "PEC01_022",
+        "label": "Correo Electrónico"
+    },
+    {
+        "descripcion": "Sitio web ChileAtiende",
+        "nombre": "PEC01_023",
+        "label": "Sitio web ChileAtiende"
+    },
+    {
+        "descripcion": "Sucursal/ Oficina",
+        "nombre": "PEC01_03",
+        "label": "Sucursal/ Oficina",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Oficina ChileAtiende",
+        "nombre": "PEC01_031",
+        "label": "Oficina ChileAtiende"
+    },
+    {
+        "descripcion": "Redes sociales",
+        "nombre": "PEC01_04",
+        "label": "Redes sociales",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "(especificar)",
+        "nombre": "PEC01_05",
+        "label": "(especificar)"
+    },
+    {
+        "descripcion": "Hizo seguimiento del trámite",
+        "nombre": "PEC02",
+        "label": "Hizo seguimiento del trámite"
+    },
+    {
+        "descripcion": "Canal seguimiento",
+        "nombre": "PEC03",
+        "label": "Canal seguimiento"
+    },
+    {
+        "descripcion": "Call center",
+        "nombre": "PEC03_01",
+        "label": "Call center"
+    },
+    {
+        "descripcion": "Página Web",
+        "nombre": "PEC03_02",
+        "label": "Página Web"
+    },
+    {
+        "descripcion": "Plataforma digital especializada",
+        "nombre": "PEC03_021",
+        "label": "Plataforma digital especializada"
+    },
+    {
+        "descripcion": "Correo Electrónico",
+        "nombre": "PEC03_022",
+        "label": "Correo Electrónico"
+    },
+    {
+        "descripcion": "Asistente virtual / Chatbot",
+        "nombre": "PEC03_024",
+        "label": "Asistente virtual / Chatbot"
+    },
+    {
+        "descripcion": "Oficina Presencial",
+        "nombre": "PEC03_03",
+        "label": "Oficina Presencial"
+    },
+    {
+        "descripcion": "Oficina ChileAtiende",
+        "nombre": "PEC03_031",
+        "label": "Oficina ChileAtiende"
+    },
+    {
+        "descripcion": "(especificar)",
+        "nombre": "PEC03_04",
+        "label": "(especificar)"
+    },
+    {
+        "descripcion": "(especificar)",
+        "nombre": "PEC03_05",
+        "label": "(especificar)"
+    },
+    {
+        "descripcion": "Nota canal Call center",
+        "nombre": "PEC04_1",
+        "label": "Nota canal Call center",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Nota canal Página Web",
+        "nombre": "PEC04_2",
+        "label": "Nota canal Página Web",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Nota canal Plataforma digital especializada",
+        "nombre": "PEC04_021",
+        "label": "Nota canal Plataforma digital especializada"
+    },
+    {
+        "descripcion": "Nota canal Oficina Presencial",
+        "nombre": "PEC04_3",
+        "label": "Nota canal Oficina Presencial",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Nota canal Oficina ChileAtiende",
+        "nombre": "PEC04_4",
+        "label": "Nota canal Oficina ChileAtiende"
+    },
+    {
+        "descripcion": "Nota canal Redes Sociales",
+        "nombre": "PEC04_5",
+        "label": "Nota canal Redes Sociales",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Nota canal (especificar)",
+        "nombre": "PEC04_6",
+        "label": "Nota canal (especificar)"
+    },
+    {
+        "descripcion": "Oficinas Cómodas",
+        "nombre": "PEC05_1",
+        "label": "Oficinas Cómodas",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Oficinas Límpias y ordenadas",
+        "nombre": "PEC05_2",
+        "label": "Oficinas Límpias y ordenadas",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Oficinas tiempo de espera razonable",
+        "nombre": "PEC05_3",
+        "label": "Oficinas tiempo de espera razonable",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Oficinas seguras",
+        "nombre": "PEC05_4",
+        "label": "Oficinas seguras",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Desacuerdo o Acuerdo aumentó confianza en servicio público",
+        "nombre": "PEV01_1",
+        "label": "Desacuerdo o Acuerdo aumentó confianza en servicio público"
+    },
+    {
+        "descripcion": "Desacuerdo o Acuerdo con que hablaría positivamente del servicio",
+        "nombre": "PEV01_2",
+        "label": "Desacuerdo o Acuerdo con que hablaría positivamente del servicio"
+    },
+    {
+        "descripcion": "Evaluación facilidad del trámite",
+        "nombre": "PEV02_1",
+        "label": "Evaluación facilidad del trámite",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación tiempo de respuesta",
+        "nombre": "PEV02_2",
+        "label": "Evaluación tiempo de respuesta",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación claridad de los pasos",
+        "nombre": "PEV02_3",
+        "label": "Evaluación claridad de los pasos",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación facilidad de comprensión para el trámite",
+        "nombre": "PEV02_4",
+        "label": "Evaluación facilidad de comprensión para el trámite",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación utilidad de información para el trámite",
+        "nombre": "PEV02_5",
+        "label": "Evaluación utilidad de información para el trámite"
+    },
+    {
+        "descripcion": "Evaluación utilidad información recibida",
+        "nombre": "PEV02_6",
+        "label": "Evaluación utilidad información recibida",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación información completa de respuesta",
+        "nombre": "PEV02_7",
+        "label": "Evaluación información completa de respuesta"
+    },
+    {
+        "descripcion": "Evaluación claridad de información del resultado",
+        "nombre": "PEV02_8",
+        "label": "Evaluación claridad de información del resultado",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Evaluación esfuerzo por acoger mi realdiad",
+        "nombre": "PEV02_9",
+        "label": "Evaluación esfuerzo por acoger mi realdiad",
+        "valores": {
+            "1": "1 Pésimo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Excelente",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Comodidad uso de Internet",
+        "nombre": "PDE01",
+        "label": "Comodidad uso de Internet",
+        "valores": {
+            "1": "Muy cómodo",
+            "2": "Bastante cómodo",
+            "3": "Algo cómodo",
+            "4": "Poco cómodo",
+            "5": "Nada cómodo",
+            "6": "No ocupo internet / casi nunca ocupo internet",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Frecuencia uso de Internet (pre- pandemia) para este tipo de trámites",
+        "nombre": "PDE02",
+        "label": "Frecuencia uso de Internet (pre- pandemia) para este tipo de trámites",
+        "valores": {
+            "1": "Nunca había hecho este tipo de trámite en ningún canal",
+            "2": "Es mi primera vez que debo hacer este tipo de trámites por internet",
+            "3": "Ocasionalmente había hecho este trámite por internet",
+            "4": "Casi siempre o siempre hago este tipo de trámite por internet",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Principal obstáculo para hacer trámite por internet (verbatim)",
+        "nombre": "PDE03",
+        "label": "Principal obstáculo para hacer trámite por internet (verbatim)"
+    },
+    {
+        "descripcion": "Principal obstáculo para hacer trámite por internet (codificación)",
+        "nombre": "PDE03_COD",
+        "label": "Principal obstáculo para hacer trámite por internet (codificación)"
+    },
+    {
+        "descripcion": "Habilitacion: conocer mejor trámites y servicios",
+        "nombre": "PH01",
+        "label": "Habilitacion: conocer mejor trámites y servicios",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Habilitación: aprender a hacer trámites más fácilmente",
+        "nombre": "PH02",
+        "label": "Habilitación: aprender a hacer trámites más fácilmente",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Habilitación: estar informado de los trámites",
+        "nombre": "PH03",
+        "label": "Habilitación: estar informado de los trámites",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Habilitación: saber condiciones específicas para hacer trámites",
+        "nombre": "PH04",
+        "label": "Habilitación: saber condiciones específicas para hacer trámites",
+        "valores": {
+            "1": "1 Muy en desacuerdo",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy de acuerdo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Tuvo problema en el trámite",
+        "nombre": "PEP01",
+        "label": "Tuvo problema en el trámite",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Qué problema tuvo (verbatim)",
+        "nombre": "PEP02",
+        "label": "Qué problema tuvo (verbatim)"
+    },
+    {
+        "descripcion": null,
+        "nombre": "PEP02_COD",
+        "label": null,
+        "valores": {
+            "1": "No recibió atención oportuna y de calidad",
+            "2": "No recibió una respuesta en tiempo prudente",
+            "3": "Su solicitud de información o consulta no fue contestada",
+            "4": "Le negaron un servicio al que tenía derecho según su criterio",
+            "5": "Tomaron una decisión administrativa que no fue razonable o lo perjudicó",
+            "6": "No corrigieron un error u omisión que ellos mismo cometieron",
+            "7": "Otro motivo",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "¿Contactó a la institución a propósito del problema?",
+        "nombre": "PEP03_1",
+        "label": "¿Contactó a la institución a propósito del problema?"
+    },
+    {
+        "descripcion": "Satisfacción con respuesta a problema",
+        "nombre": "PEP03_2",
+        "label": "Satisfacción con respuesta a problema",
+        "valores": {
+            "1": "1 Muy insatisfecho/a",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7 Muy satisfecho/a",
+            "8": "No sabe",
+            "9": "No responde",
+            "77": "No pidió solución del problema a la institución"
+        }
+    },
+    {
+        "descripcion": "Tiene clave única",
+        "nombre": "PDE04_1",
+        "label": "Tiene clave única",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Razón no tiene clave única",
+        "nombre": "PDE04_2",
+        "label": "Razón no tiene clave única"
+    },
+    {
+        "descripcion": "Pensando en los últimos 12 meses, ¿a través de qué medios se ha contactado con FONASA?: No sabe",
+        "nombre": "PEC01_88",
+        "label": "Pensando en los últimos 12 meses, ¿a través de qué medios se ha contactado con FONASA?: No sabe",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Pensando en los últimos 12 meses, ¿a través de qué medios se ha contactado con FONASA?: No responde",
+        "nombre": "PEC01_99",
+        "label": "Pensando en los últimos 12 meses, ¿a través de qué medios se ha contactado con FONASA?: No responde",
+        "valores": {
+            "0": "No",
+            "1": "Sí"
+        }
+    },
+    {
+        "descripcion": "Tipo de usuario",
+        "nombre": "U1",
+        "label": "Tipo de usuario"
+    },
+    {
+        "descripcion": "Sexo",
+        "nombre": "U2",
+        "label": "Sexo",
+        "valores": {
+            "1": "Hombre",
+            "2": "Mujer"
+        }
+    },
+    {
+        "descripcion": "Edad",
+        "nombre": "U3",
+        "label": "Edad"
+    },
+    {
+        "descripcion": "Comuna",
+        "nombre": "UN4",
+        "label": "Comuna",
+        "valores": "Utilizar código texto de 5 dígitos: http://www.subdere.gov.cl/documentacion/c%C3%B3digos-%C3%BAnicos-territoriales-actualizados-al-06-de-septiembre-2018"
+    },
+    {
+        "descripcion": "Nacionalidad",
+        "nombre": "UN5",
+        "label": "Nacionalidad",
+        "valores": {
+            "1": "Chilena",
+            "2": "Chilena y otra (doble nacionalidad)",
+            "3": "Otra nacionalidad (extranjeros)",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Pueblo indígena/ originario",
+        "nombre": "UN6_1",
+        "label": "Pueblo indígena/ originario",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Discapacidad permanente",
+        "nombre": "UN6_2",
+        "label": "Discapacidad permanente",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Nivel educacional",
+        "nombre": "UN7",
+        "label": "Nivel educacional",
+        "valores": {
+            "1": "Sin educación",
+            "2": "Básica incompleta",
+            "3": "Básica completa",
+            "4": "Media incompleta",
+            "5": "Media completa",
+            "6": "Técnica superior incompleta",
+            "7": "Técnica superior completa",
+            "8": "Universitaria incompleta",
+            "9": "Universitaria completa",
+            "10": "Postgrado, magister, doctorado",
+            "88": "No sabe",
+            "99": "No responde"
+        }
+    },
+    {
+        "descripcion": "Es JH",
+        "nombre": "UN8",
+        "label": "Es JH",
+        "valores": {
+            "1": "Sí",
+            "2": "No",
+            "8": "No sabe",
+            "9": "No responde"
+        }
+    },
+    {
+        "descripcion": "Tipo de organización",
+        "nombre": "UO1",
+        "label": "Tipo de organización"
+    },
+    {
+        "descripcion": "Rol en organización",
+        "nombre": "UO2",
+        "label": "Rol en organización"
+    },
+    {
+        "descripcion": "Región donde se desempeña",
+        "nombre": "UO3",
+        "label": "Región donde se desempeña"
+    },
+    {
+        "tipo": "Calculado",
+        "descripcion": "Nivel de Habilitación con preguntas base (PH1 y PH4)",
+        "nombre": "HabBase",
+        "label": "Nivel de Habilitación con preguntas base (PH1 y PH4)",
+        "valores": {
+            "1": "No habilitado",
+            "2": "Medianamente",
+            "3": "Habilitado"
+        }
+    },
+    {
+        "pendiente": "CF: No sé lo que es. Creo que es calculado.",
+        "descripcion": "GSE de AIM",
+        "nombre": "GSE",
+        "label": "GSE de AIM",
+        "valores": {
+            "1": "AB",
+            "2": "C1A",
+            "3": "C1B",
+            "4": "C2",
+            "5": "C3",
+            "6": "D",
+            "7": "E"
+        }
+    },
+    {
+        "pendiente": "CF: No sé lo que es. Creo que es calculado.",
+        "descripcion": "Nivel Socieconómico (simplificado)",
+        "nombre": "NSE",
+        "label": "Nivel Socieconómico (simplificado)",
+        "valores": {
+            "1": "Alto",
+            "2": "Medio",
+            "3": "Bajo"
+        }
+    },
+    {
+        "tipo": "Calculado",
+        "descripcion": "Edad agrupada",
+        "nombre": "EDAD_AGR",
+        "label": "Edad agrupada",
+        "valores": {
+            "1": "18-34",
+            "2": "35-54",
+            "3": "55 o más"
+        }
+    },
+    {
+        "descripcion": "Eduación agrupada",
+        "nombre": "EDUC_AGR",
+        "label": "Eduación agrupada",
+        "valores": {
+            "1": "Escolar incompleta",
+            "2": "Escolar completa",
+            "3": "Superior"
+        }
+    },
+    {
+        "tipo": "Calculado",
+        "descripcion": "Desde UN4 o UO3",
+        "nombre": "REGION",
+        "label": "Desde UN4 o UO3",
+        "valores": {
+            "1": "Región de Tarapacá",
+            "2": "Región de Antofagasta",
+            "3": "Región de Atacama",
+            "4": "Región de Coquimbo",
+            "5": "Región de Valparaíso",
+            "6": "Región del Libertador Gral. Bernardo O’Higgins",
+            "7": "Región del Maule",
+            "8": "Región del Biobío",
+            "9": "Región de La Araucanía",
+            "10": "Región de Los Lagos",
+            "11": "Región de Aysén del Gral. Carlos Ibáñez del Campo",
+            "12": "Región de Magallanes y de la Antártica Chilena",
+            "13": "Región Metropolitana de Santiago",
+            "14": "Región de Los Ríos",
+            "15": "Región de Arica y Parinacota",
+            "16": "Región de Ñuble"
+        }
+    },
+    {
+        "descripcion": "Agrupación de Region: Norte 1 a 4; centro 5 a 8; sur 9 a 12; RM",
+        "nombre": "ZONA",
+        "label": "Agrupación de Region: Norte 1 a 4; centro 5 a 8; sur 9 a 12; RM",
+        "valores": {
+            "1": "Norte",
+            "2": "Centro",
+            "3": "Sur",
+            "4": "RM"
+        }
+    },
+    {
+        "descripcion": "Ponderador",
+        "nombre": "F_POND",
+        "label": "Ponderador"
+    },
+    {
+        "descripcion": "Factor de expansión",
+        "nombre": "F_EXPAN",
+        "label": "Factor de expansión"
+    },
+    {
+        "pendiente": "CF: No sé lo que es. Creo que es calculado.",
+        "descripcion": "Distrito Zonal",
+        "nombre": "FON_01",
+        "label": "Distrito Zonal",
+        "valores": {
+            "1": "Norte",
+            "2": "Centro Norte",
+            "3": "Nivel Central",
+            "4": "Centro Sur",
+            "5": "Sur"
+        }
+    },
+    {
+        "descripcion": "Mes",
+        "nombre": "FON_02",
+        "label": "Mes",
+        "valores": {
+            "6": "Junio",
+            "7": "Julio",
+            "8": "Agosto",
+            "9": "Septiembre",
+            "10": "Octubre",
+            "11": "Noviembre",
+            "12": "Diciembre"
+        }
+    },
+    {
+        "pendiente": "CF: No sé lo que es. Creo que es calculado.",
+        "descripcion": "Tramo",
+        "nombre": "FON_03",
+        "label": "Tramo",
+        "valores": {
+            "1": "A",
+            "2": "B",
+            "3": "C",
+            "4": "D",
+            "5": "Bloqueado"
+        }
+    },
+    {
+        "pendiente": "CF: No sé lo que es. Creo que es calculado.",
+        "descripcion": "Usuario",
+        "nombre": "FON_04",
+        "label": "Usuario",
+        "valores": {
+            "1": "Titular",
+            "2": "Carga"
+        }
+    }
+]

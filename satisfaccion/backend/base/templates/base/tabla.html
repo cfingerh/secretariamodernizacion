@@ -1,0 +1,29 @@
+{% load pdftags %}
+
+
+Registros: <b>{{resumen.cantidad}}</b> : {{resumen.registros }}
+
+
+<table style="width:100%">
+    <tr>
+        <th></th>
+        <th width="18%">Negativo</th>
+        <th width="18%">Positivo</th>
+        <th width="18%">Diferencia</th>
+        <th width="18%">Redondeado</th>
+    </tr>
+    <tr>
+        <td>Solo respondidos</td>
+        <td>{{resumen.absolutos.solo_respondidos.negativo|percentage}}</td>
+        <td>{{resumen.absolutos.solo_respondidos.positivo|percentage}}</td>
+        <td>{{resumen.absolutos.solo_respondidos.diferencia|percentage}}</td>
+        <td>{{resumen.absolutos.solo_respondidos.absoluto|percentage}}</td>
+    </tr>
+    <tr>
+        <td>Incluir todos</td>
+        <td>{{resumen.absolutos.incluye_todos.negativo|percentage}}</td>
+        <td>{{resumen.absolutos.incluye_todos.positivo|percentage}}</td>
+        <td>{{resumen.absolutos.incluye_todos.diferencia|percentage}}</td>
+        <td>{{resumen.absolutos.incluye_todos.absoluto|percentage}}</td>
+    </tr>
+</table>

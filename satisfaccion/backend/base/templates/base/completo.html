@@ -1,0 +1,34 @@
+{% load humanize %}
+{% load l10n %}
+{% load pdftags %}
+<header class="container-fluid">
+</header>
+
+<section>
+    <div class="container">
+        <div>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/SrCm2H6/small-bar.png" alt="small-bar" border="0"></a>
+        </div>
+        <article id="contents">
+            <h1>Índice</h1>
+
+            {% for institucion in instituciones %}
+            <h1>{{institucion.nombre}}</h1>
+            {% for objeto in institucion.completo %}
+            <a href="#{{objeto.institucion.nombre_corto}}-{{objeto.anio}}">{{objeto.institucion.nombre}} - {{objeto.anio}}</a><br>
+            {% endfor %}
+            {% endfor %}
+
+            </ul>
+        </article>
+
+    </div>
+</section>
+
+<div>
+    {% for institucion in instituciones %}
+    {% for objeto in institucion.completo %}
+    {% include 'base/pdf.html' %}
+    {% endfor %}
+    {% endfor %}
+</div>

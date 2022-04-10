@@ -1,0 +1,254 @@
+{% load humanize %}
+{% load l10n %}
+{% load pdftags %}
+
+<div class="page-break">
+    <h1 id="{{objeto.institucion.nombre_corto}}-{{objeto.anio}}">{{objeto.institucion.nombre}} - {{objeto.anio}}</h1>
+</div>
+<div class="container-fluid pdf__content">
+    <h2>General</h2>
+    Cantidad de registros: {{objeto.cantidad}}
+    <h3>Ponderador</h3>
+
+    {% if objeto.ponderador_columna %}
+    <table style="width:100%">
+        <tr>
+            <td width="25%">Min {{objeto.ponderador_min|floatformat:4}}</td>
+            <td width="25%">Max {{objeto.ponderador_max|floatformat:4}}</td>
+            <td width="25%">Rel {{objeto.ponderador_rel|floatformat:4}}</td>
+            <td width="25%">Avg {{objeto.ponderador_avg|floatformat:4}}</td>
+        </tr>
+    </table>
+    <small>Columna {{objeto.ponderador_columna}} </small>
+    {% else %}
+    No se encontró columnas ponderador
+    {% endif %}
+
+    <hr>
+    <h2>Evaluación Institución</h2>
+    {% if objeto.columna_eval_inst %}
+    {% include 'base/tabla.html' with resumen=objeto.eval_inst %}
+    <small> Columna {{objeto.columna_eval_inst}}</small>
+    {% else %} No se encontró columnas de evaluación institucion {% endif %}
+
+
+    <h2>Última Experiencia</h2>
+    {% if objeto.columna_experiencia %}
+    {% include 'base/tabla.html' with resumen=objeto.experiencia %}
+    {% else %}No se encontró columnas de última experiencia {% endif %}
+
+    <hr>
+    <h1>Edad</h1>
+    <small>Columna: {{objeto.columna_edad}}</small>
+
+    <table style="width:100%">
+
+        <tr>
+            <td></td>
+            <td width="20%">18 a 34 años</td>
+            <td width="20%">35 a 44 años</td>
+            <td width="20%">45 a 54 años</td>
+            <td width="20%">55 años o más</td>
+        </tr>
+        <tr>
+            <td>Cantidad</td>
+            <td>{{ objeto.edad_18_a_34.cantidad}}</td>
+            <td>{{ objeto.edad_35_a_44.cantidad}}</td>
+            <td>{{ objeto.edad_45_a_54.cantidad}}</td>
+            <td>{{ objeto.edad_55_o_mas.cantidad}}</td>
+        </tr>
+        <tr>
+            <td>Experiencia Neta</td>
+            <td>{{ objeto.edad_18_a_34.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.edad_35_a_44.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.edad_45_a_54.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.edad_55_o_mas.absolutos.solo_respondidos.absoluto|percentage}}</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Sexo</h1>
+    <small>Columna: {{objeto.columna_sexo}}</small>
+    <table style="width:100%">
+        <tr>
+            <td></td>
+            <td width="40%">Hombre</td>
+            <td width="40%">Mujer</td>
+
+        </tr>
+        <tr>
+            <td>Cantidad</td>
+            <td>{{ objeto.hombres.cantidad}}</td>
+            <td>{{ objeto.mujeres.cantidad}}</td>
+        </tr>
+        <tr>
+            <td>Experiencia Neta</td>
+            <td>{{ objeto.hombres.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.mujeres.absolutos.solo_respondidos.absoluto|percentage}}</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h1>Habilitacion</h1>
+    <table style="width:100%">
+        <tr>
+            <td></td>
+            <td width="35%">No Habilitado</td>
+            <td width="35%">Medianamente</td>
+            <td width="35%">Habilitado</td>
+        </tr>
+        <tr>
+            <td>Cantidad</td>
+            <td>{{ objeto.eval_inst_no_habilitados.cantidad}}</td>
+            <td>{{ objeto.eval_inst_medianamente_habilitados.cantidad}}</td>
+            <td>{{ objeto.eval_inst_habilitados.cantidad}}</td>
+        </tr>
+        <tr>
+            <td>Evaluación Institución (Neta)</td>
+            <td>{{ objeto.eval_inst_no_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.eval_inst_medianamente_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.eval_inst_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+        </tr>
+        <tr>
+            <td>Experiencia (Neta)</td>
+            <td>{{ objeto.experiencia_no_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.experiencia_medianamente_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+            <td>{{ objeto.experiencia_habilitados.absolutos.solo_respondidos.absoluto|percentage}}</td>
+        </tr>
+    </table>
+
+    <h1>Regiones</h1>
+    {{objeto.registro_regiones}}
+
+    {% if 1 == 1 %}
+    <div class="page-break"></div>
+
+    <h1>Habilitacion</h1>
+
+    <h2>Habilitacion 1</h2>
+    {% if objeto.habilitacion_1.columna %}
+    {{objeto.habilitacion_1.columna}} - Registros: {{objeto.habilitacion_1.registros }}
+    {% else %}
+    No hay columna habilitacion_1
+    {% endif %}
+
+    <h2>Habilitacion 2</h2>
+    {% if objeto.habilitacion_2.columna %}
+    {{objeto.habilitacion_2.columna}} - Registros: {{objeto.habilitacion_2.registros }}
+    {% else %}
+    No hay columna habilitacion_2
+    {% endif %}
+
+    <h2>Habilitacion 3</h2>
+    {% if objeto.habilitacion_3.columna %}
+    {{objeto.habilitacion_3.columna}} - Registros: {{objeto.habilitacion_3.registros }}
+    {% else %}
+    No hay columna habilitacion_3
+    {% endif %}
+
+    <h2>Habilitacion 4</h2>
+    {% if objeto.habilitacion_4.columna %}
+    {{objeto.habilitacion_4.columna}} - Registros: {{objeto.habilitacion_4.registros }}
+    {% else %}
+    No hay columna habilitacion_4
+    {% endif %}
+
+    <h1>Habilitados Evaluación Institución</h1>
+    <h2>No Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.eval_inst_no_habilitados %}
+
+    <h2>Medianamente Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.eval_inst_medianamente_habilitados %}
+
+    <h2>Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.eval_inst_habilitados %}
+
+
+
+    <h1>Habilitados Ultima Experiencia</h1>
+    <h2>No Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.experiencia_no_habilitados %}
+
+    <h2>Medianamente Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.experiencia_medianamente_habilitados %}
+
+    <h2>Habilitados</h2>
+    {% include 'base/tabla.html' with resumen=objeto.experiencia_habilitados %}
+
+    <div class="page-break"></div>
+
+    <h1>Imagen</h1>
+    <table style="width:100%">
+
+        <tr>
+            <td>Confianza</td>
+            <td>{{ objeto.columna_confianza}}</td>
+        </tr>
+        <tr>
+            <td>Transparente</td>
+            <td>{{ objeto.columna_transparente}}</td>
+        </tr>
+        <tr>
+            <td>Necesidad</td>
+            <td>{{ objeto.columna_necesidades}}</td>
+        </tr>
+        <tr>
+            <td>Modernizacion</td>
+            <td>{{ objeto.columna_modernizacion}}</td>
+        </tr>
+        <tr>
+            <td>Comprometidos</td>
+            <td>{{ objeto.columna_comprometidos}}</td>
+        </tr>
+        <tr>
+            <td>Satisface</td>
+            <td>{{ objeto.columna_satisface}}</td>
+        </tr>
+    </table>
+
+    <h1>Atributos</h1>
+    <table style="width:100%">
+
+        <tr>
+            <td>Facilidad Trámite</td>
+            <td> {{ objeto.columna_facilidad_tramite }}</td>
+        </tr>
+        <tr>
+            <td>Tiempo Respuesta</td>
+            <td> {{ objeto.columna_tiempo_respuesta }}</td>
+        </tr>
+        <tr>
+            <td>Claridad Pasos</td>
+            <td> {{ objeto.columna_claridad_pasos }}</td>
+        </tr>
+        <tr>
+            <td>Comprensión Trámite</td>
+            <td> {{ objeto.columna_comprension_tramite }}</td>
+        </tr>
+        <tr>
+            <td>Información Trámite</td>
+            <td> {{ objeto.columna_informacion_tramite }}</td>
+        </tr>
+        <tr>
+            <td>Utilidad Información</td>
+            <td> {{ objeto.columna_utilidad_informacion }}</td>
+        </tr>
+        <tr>
+            <td>Información Completa</td>
+            <td> {{ objeto.columna_informacion_completa }}</td>
+        </tr>
+        <tr>
+            <td>Calidad Información</td>
+            <td> {{ objeto.columna_calidad_informacion }}</td>
+        </tr>
+        <tr>
+            <td>Acoger Realidad</td>
+            <td> {{ objeto.columna_acoger_realidad }}</td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <h2>Columnas</h2>
+    {{objeto.columnas_originales}}
+    {% endif %}
+</div>

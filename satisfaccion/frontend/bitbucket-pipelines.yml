@@ -1,0 +1,36 @@
+image: node:14.17.5
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Generate Static Files
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: deploy
+          deployment: production
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: 'sa-east-1'
+                S3_BUCKET: 'satisfaccion2021'
+                LOCAL_PATH: 'dist'
+                ACL: 'public-read'
+                DEBUG: "true"
+      - step:
+          name: invalidate
+          script:
+            - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: 'sa-east-1'
+                DISTRIBUTION_ID: 'E2AJLVW7RLL6QL'

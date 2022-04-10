@@ -1,0 +1,51 @@
+{
+  "data": {
+    "documentos": [
+      {
+        "id": 1,
+        "titulo": "Diagnósticos y Propuestas",
+        "cover": "img/icon_diagnosticos-y-propuestas.svg"
+      },
+      {
+        "id": 2,
+        "titulo": "Históricos",
+        "cover": "img/icon_historicos.svg"
+      },
+      {
+        "id": 3,
+        "titulo": "Seminarios",
+        "cover": "img/icon_seminarios.svg"
+      },
+      {
+        "id": 4,
+        "titulo": "Agenda de Modernización",
+        "cover": "img/icon_agenda.svg"
+      },
+      {
+        "id": 5,
+        "titulo": "Seguimiento Glosas Presupuestarias",
+        "cover": "img/icon_presupuesto.png"
+      }
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

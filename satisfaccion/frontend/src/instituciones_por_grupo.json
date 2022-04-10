@@ -1,0 +1,301 @@
+[
+  {
+    "nombre": "",
+    "instituciones": [
+      {
+        "nombre": "ChileAtiende Digital",
+        "codigo": "Chileatiende",
+        "id": 7
+      }
+    ]
+  },
+  {
+    "nombre": "Ciudadan\u00eda /T. Generales",
+    "instituciones": [
+      {
+        "nombre": "Servicio de Registro Civil e Identificaci\u00f3n",
+        "codigo": "SRC",
+        "id": 14
+      },
+      {
+        "nombre": "Servicio de Tesorer\u00edas",
+        "codigo": "Tesoreria",
+        "id": 18
+      },
+      {
+        "nombre": "Servicio de Impuestos Internos",
+        "codigo": "SII",
+        "id": 39
+      },
+      {
+        "nombre": "Subsecretar\u00eda del Interior",
+        "codigo": "Interior",
+        "id": 51
+      },
+      {
+        "nombre": "ChileAtiende Presencial (IPS)",
+        "codigo": "IPS",
+        "id": 8
+      }
+    ]
+  },
+  {
+    "nombre": "Econom\u00eda",
+    "instituciones": [
+      {
+        "nombre": "Direcci\u00f3n de Compras y Contrataci\u00f3n P\u00fablica (Compradores)",
+        "codigo": "Chilecompra-Compradores",
+        "id": 6
+      },
+      {
+        "nombre": "Direcci\u00f3n del Trabajo",
+        "codigo": "DT",
+        "id": 10
+      },
+      {
+        "nombre": "Subsecretar\u00eda de Econom\u00eda y Empresas de Menor Tama\u00f1o",
+        "codigo": "SubseEco",
+        "id": 15
+      },
+      {
+        "nombre": "Direcci\u00f3n de Compras y Contrataci\u00f3n P\u00fablica (Proveedores)",
+        "codigo": "Chilecompra-Proveedores",
+        "id": 36
+      },
+      {
+        "nombre": "Instituto Nacional de Estad\u00edsticas",
+        "codigo": "INE",
+        "id": 35
+      },
+      {
+        "nombre": "Servicio Nacional de Capacitaci\u00f3n y Empleo",
+        "codigo": "SENCE",
+        "id": 41
+      },
+      {
+        "nombre": "Archivo Nacional",
+        "codigo": "AN",
+        "id": 40
+      },
+      {
+        "nombre": "Servicio Nacional de Pesca y Acuicultura",
+        "codigo": "Sernapesca",
+        "id": 42
+      },
+      {
+        "nombre": "Servicio Nacional de Aduanas",
+        "codigo": "Aduana",
+        "id": 43
+      }
+    ]
+  },
+  {
+    "nombre": "Fiscalizaci\u00f3n",
+    "instituciones": [
+      {
+        "nombre": "Subsecretar\u00eda de Salud P\u00fablica (COMPIN)",
+        "codigo": "Compin",
+        "id": 9
+      },
+      {
+        "nombre": "Superintendencia de Salud",
+        "codigo": "SuperSalud",
+        "id": 17
+      },
+      {
+        "nombre": "Superintendencia de Pensiones",
+        "codigo": "SuperPensiones",
+        "id": 16
+      },
+      {
+        "nombre": "Servicio Nacional del Consumidor",
+        "codigo": "SERNAC",
+        "id": 13
+      },
+      {
+        "nombre": "Superintendencia de Electricidad y Combustibles",
+        "codigo": "SEC",
+        "id": 52
+      },
+      {
+        "nombre": "Superintendencia de Seguridad Social",
+        "codigo": "SUSESO",
+        "id": 38
+      }
+    ]
+  },
+  {
+    "nombre": "Salud/Previsi\u00f3n",
+    "instituciones": [
+      {
+        "nombre": "Fondo Nacional de Salud",
+        "codigo": "FONASA",
+        "id": 11
+      },
+      {
+        "nombre": "Instituto de Seguridad Laboral",
+        "codigo": "ISL",
+        "id": 12
+      },
+      {
+        "nombre": "Caja de Previsi\u00f3n de la Defensa Nacional",
+        "codigo": "Capredena",
+        "id": 49
+      },
+      {
+        "nombre": "Direcci\u00f3n General de Cr\u00e9dito Prendario",
+        "codigo": "",
+        "id": 45
+      },
+      {
+        "nombre": "",
+        "codigo": null,
+        "id": 56
+      },
+      {
+        "nombre": "",
+        "codigo": null,
+        "id": 55
+      },
+      {
+        "nombre": "Direcci\u00f3n de Previsi\u00f3n de Carabineros de Chile",
+        "codigo": "",
+        "id": 50
+      },
+      {
+        "nombre": "",
+        "codigo": null,
+        "id": 57
+      },
+      {
+        "nombre": "",
+        "codigo": "",
+        "id": 58
+      },
+      {
+        "nombre": "",
+        "codigo": "",
+        "id": 59
+      },
+      {
+        "nombre": "",
+        "codigo": "",
+        "id": 60
+      }
+    ]
+  },
+  {
+    "nombre": "Social",
+    "instituciones": [
+      {
+        "nombre": "SERVIU Regi\u00f3n de Tarapac\u00e1",
+        "codigo": "",
+        "id": 19
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Los Lagos",
+        "codigo": "",
+        "id": 28
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Valpara\u00edso",
+        "codigo": "",
+        "id": 23
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Ays\u00e9n del Gral. Carlos Ib\u00e1\u00f1ez del Campo",
+        "codigo": "",
+        "id": 29
+      },
+      {
+        "nombre": "Subsecretar\u00eda de Vivienda y Urbanismo",
+        "codigo": "SubseVivienda",
+        "id": 34
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Arica y Parinacota",
+        "codigo": "",
+        "id": 33
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n Metropolitana",
+        "codigo": "",
+        "id": 31
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Atacama",
+        "codigo": "",
+        "id": 21
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Los R\u00edos",
+        "codigo": "",
+        "id": 32
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Coquimbo",
+        "codigo": "",
+        "id": 22
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de la Araucan\u00eda",
+        "codigo": "",
+        "id": 27
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n del Biob\u00edo",
+        "codigo": "",
+        "id": 26
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n del Maule",
+        "codigo": "",
+        "id": 25
+      },
+      {
+        "nombre": "Fondo de Solidaridad e Inversion Social",
+        "codigo": "Fosis",
+        "id": 37
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de \u00d1uble",
+        "codigo": "",
+        "id": 44
+      },
+      {
+        "nombre": "Servicio Nacional del Adulto Mayor",
+        "codigo": "SENAMA",
+        "id": 48
+      },
+      {
+        "nombre": "Junta Nacional de Auxilio Escolar y Becas",
+        "codigo": "Junaeb",
+        "id": 47
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Antofagasta",
+        "codigo": "",
+        "id": 20
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n de Magallanes y Ant\u00e1rtica Chilena",
+        "codigo": "",
+        "id": 30
+      },
+      {
+        "nombre": "Subsecretar\u00eda de Servicios Sociales",
+        "codigo": "SubseServiciosSociales",
+        "id": 46
+      },
+      {
+        "nombre": "SERVIU Regi\u00f3n del Libertador General Bernardo O'Higgins",
+        "codigo": "",
+        "id": 24
+      }
+    ]
+  },
+  {
+    "nombre": null,
+    "instituciones": []
+  }
+]

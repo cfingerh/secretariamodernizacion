@@ -1,0 +1,39 @@
+{
+  "data": {
+    "categorias": [
+      { 
+        "nombre": "Contingencia"
+      },
+      { 
+        "nombre": "Política"
+      },
+      { 
+        "nombre": "Economía"
+      },
+      { 
+        "nombre": "Noticias"
+      }
+
+    ]
+  },
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "max-age=15",
+    "content-length": "673",
+    "content-type": "application/javascript"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, /"
+    },
+    "method": "get"
+  },
+  "request": {}
+}

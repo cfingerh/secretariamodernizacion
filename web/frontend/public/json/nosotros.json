@@ -2,14 +2,6 @@
   "data": {
     "nosotros": [
       {
-        "nombre": "Andrés Hernando",
-        "titulo": "Coordinador de Modernización",
-        "descripcion": "Ingeniero Civil y Magíster en Economía Aplicada de la Universidad de Chile. Posteriormente, Ph.D. en Economía en la Universidad de Harvard.\n Hasta su nombramiento en Hacienda era Coordinador Académico del Centro de Estudios Públicos (CEP). Antes se desempeñó como jefe de la División de Políticas Sociales del Ministerio de Desarrollo Social y posteriormente, como director de estudios del Centro de Estudios Horizontal. Actualmente se desempeña como profesor de la Escuela de Gobierno de la Universidad Adolfo Ibáñez en el Magíster en Economía y Políticas Públicas, y de Organización Industrial en la carrera de Ingeniería Comercial de la misma Universidad.",
-        "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-hernando-31796b5/",
-        "cover": "/img/nosotros_hernando.jpg",
-        "posicion": 1
-      },
-      {
         "nombre": "María Alejandra Luza",
         "titulo": "Subdirectora de Proyectos",
         "descripcion": "Ingenieria Civil Industrial de la Universidad de Tarapacá, con diplomados en Inteligencia de Negocios y Gerencia Pública. Se ha desempeñado en áreas de gestión y liderando equipos de procesos y de tecnologías de información, implementando procesos de transformación digital en el sector público. Actualmente está en proceso de obtención del Magíster en Gestión y Políticas Públicas en la Universidad de Chile.",

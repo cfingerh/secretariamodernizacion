@@ -3,7 +3,7 @@
     <div class="ficha">
         <div class="chart__body">
             <!-- <canvas id="generales-canal"></canvas> -->
-            <img src="img/hemos-crecido-12.svg" alt="trimestres" class="metodologia_2--img" >
+            <img src="img/hemos-crecido-2021.svg" alt="trimestres" class="metodologia_2--img" >
         </div>
     </div>
 </template>

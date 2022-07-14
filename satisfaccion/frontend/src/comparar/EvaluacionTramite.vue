@@ -42,7 +42,6 @@
                             <span title="Tooltip" class="tooltip-info"><font-awesome-icon icon="info-circle" /></span>
                             <span style="float:right"><font-awesome-icon icon="chevron-right" /></span></a>
                     </div>
-
                 </div>
                 <div class="col col-7 ajustado derecha">
                     <h5>Satisfacción por tipo de trámite</h5>
@@ -94,6 +93,7 @@ export default {
             if (this.tipo === 'evaluacion') {
                 return 'Evaluación de la institución'
             }
+
             if (this.tipo === 'comparacion') {
                 return 'Última experiencia versus evaluación de la institución'
             }

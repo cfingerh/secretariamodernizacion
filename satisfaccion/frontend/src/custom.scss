@@ -269,6 +269,14 @@ H O M E
     }
 }
 
+.esconder-grande{display: none;}
+
+@media (max-width: 720px){
+    .esconder-grande{display: block;}
+    .esconder-chico{display: none;}
+}
+
+
 /*===============================
 section 
 ================================*/
@@ -356,9 +364,16 @@ ul .nav-item::before {
 /*===============================
 HEADER
 ================================*/
-.header__title { margin-top: 1rem; color: #0f69c4; }
+.header__title { margin-top: 1rem; color: #0f69c4; 
+    font-size: calc(1.5vw + 10px);
+ }
 .header__bajada { font-size: 16px; color: #4a4a4a; font-weight: normal; }
-/* header {background-color: #080d46} */
+@media only screen and (max-width: 550px) { 
+    .header__bajada{
+        display:none
+    }
+}
+
 
 
 /*===============================
@@ -406,7 +421,8 @@ chart
     margin-bottom: 0; 
 }
 .chart__body {
-    padding: 0 1.4rem;
+    padding: 0 0rem;
+    margin-bottom:20px;
 }
 
 main{
@@ -772,3 +788,9 @@ line-height: 19px;
 .text--metodologia-p{text-align: left !important; font-size: 14px;}
 .text--metodologia-span{color: #ad0800; font-weight: 700;}
 .text--metodologia-span-2{color: black; font-weight: 700; font-size: 14px;}
+
+
+.comentario_tooltip
+{   
+    color:rgb(180, 180, 180)
+}

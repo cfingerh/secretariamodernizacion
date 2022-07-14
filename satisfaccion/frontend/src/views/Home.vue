@@ -17,8 +17,8 @@
     <section class="featured--home bg-light">
         <div class="container">
             <div class="col-md-12">
-                <h1 class="carousel__title">Resultados generales 2020</h1>
-                <p class="mb-4">A nivel agregado o general, el estudio 2020 arroja los siguientes resultados:</p>
+                <h1 class="carousel__title">Resultados generales 2021</h1>
+                <!-- <p class="mb-4">A nivel agregado o general, el estudio 2021 arroja los siguientes resultados:</p> -->
 
                 <div id="carouselHeader" class="carousel carousel-dark slide" data-bs-ride="carousel" v-if="sliders">
                         <div class="carousel-indicators">
@@ -29,27 +29,27 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="carousel-item-detalle">
-                                    <h2 class="carousel__subtitle">Satisfacción última experiencia 2020</h2>
+                                    <h2 class="carousel__subtitle">Satisfacción última experiencia 2021</h2>
                                     <img src="img/ultima-experiencia.svg" alt="trimestres" class="metodologia_2--img" style="height:400px">
-                                    <span>Revisa en detalle los <a href="/metodologia">Metodología, datos y documentación</a></span>
+                                    <span>Revisa en detalle la <a href="/metodologia">Metodología, datos y documentación</a></span>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="carousel-item-detalle">
                                     <h2 class="carousel__subtitle">Cómo ha evolucionado la evaluación de satisfacción: número de instituciones</h2>
-                                    <img src="img/hemos-crecido-12.svg" alt="trimestres" class="metodologia_2--img esconder-chico" style="height:400px">
+                                    <img src="img/hemos-crecido-2021.svg" alt="trimestres" class="metodologia_2--img esconder-chico" style="height:400px;">
                                     <img src="img/hemos-crecido-sm-14.svg" alt="trimestres" class="metodologia_2--img esconder-grande" style="height:400px">
-                                    <span>Este año 2021 se superarán las 100.000 encuestas.</span>
+                                    <span>Este año 2022 se superarán las 110.000 encuestas.</span>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="carousel-item-detalle">
                                     <h2 class="carousel__subtitle">Preferencia de uso por canal</h2>
                                     <img src="img/infografia_por_canal.png" alt="trimestres" class="metodologia_2--img esconder-chico" style="max-height:400px">
                                     <img src="img/Preferencia canal-sm_Mesa de trabajo.svg" alt="trimestres" class="metodologia_2--img esconder-grande" style="max-height:400px">
 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,7 +74,7 @@
                     <div class="titulo">
                         <h1>Resultados por Institución:</h1>
                     </div>
-                    <p class="text-center">Revisa todas las <a href="/resultados">instituciones que participan</a> del año 2020 y anteriores</p>
+                    <p class="text-center">Revisa todas las <a href="/resultados">instituciones que participan</a> del año 2021 y anteriores</p>
 
                     <div id="carouselExampleControl" class="carousel carousel-dark slide" data-bs-ride="carousel" v-if="sliders">
                         <div class="carousel-indicators">
@@ -95,6 +95,13 @@
                             <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="14" aria-label="Slide 14"></button>
                             <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="15" aria-label="Slide 15"></button>
                             <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="16" aria-label="Slide 16"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="17" aria-label="Slide 17"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="18" aria-label="Slide 18"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="19" aria-label="Slide 19"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="20" aria-label="Slide 20"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="21" aria-label="Slide 21"></button>
+                            <button type="button" data-bs-target="#carouselExampleControl" data-bs-slide-to="22" aria-label="Slide 22"></button>
+
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item carousel-item-md" v-for="slide in sliders" v-bind:key="slide" v-bind:class="{ active: slide===0}">
@@ -207,6 +214,10 @@ export default {
         axios.get('/api/instituciones').then(res => {
             this.instituciones = this.shuffle(res.data)
             this.sliders = this.range(0, (this.instituciones.length / 2) - 2)
+            console.log(this.instituciones)
+            console.log(this.sliders)
+        }).catch(err => {
+            console.log(err)
         })
     },
     computed: {

@@ -9,7 +9,7 @@
                 <h3 class="box-instituciones__title card__title">
                     <a :href="'/detalleservicio/'+institucion.datos.codigo_dipres+'/'+institucion.datos.codigo">{{institucion.nombre_a_mostrar}}</a>
                 </h3>
-                <h4 class="box-instituciones__percent box-instituciones__percent--lg">{{institucion.datos.satisfaction_neta}} % usuarios satisfechos</h4>
+                <h4 class="box-instituciones__percent box-instituciones__percent--lg">{{institucion.resumen.anios[institucion.resumen.anios.length - 1].experiencia.positivo}} % usuarios satisfechos</h4>
                 <!-- <small class="box-instituciones__percent-text">Satisfaccion Neta</small> -->
                 <!-- <small class="d-block">Índice de Satisfacción Positiva última experiencia</small> -->
             </div>
@@ -38,7 +38,8 @@ export default {
     data () {
         return {
             datacollection: null,
-            chartOptions: null
+            chartOptions: null,
+
         }
     },
     methods: {
@@ -48,24 +49,23 @@ export default {
             }
         },
         get_logo (institucion) {
-            if (institucion.datos.codigo.toLowerCase().search('serviu') >= 0) {
+            if (institucion.nombre_corto.toLowerCase().search('serviu') >= 0) {
                 return '/img/logos/serviu.png'
             }
-            if (institucion.datos.codigo.toLowerCase().search('chilecompra') >= 0) {
-                return '/img/logos/chilecompra.png'
-            }
-            if (institucion.datos.codigo.toLowerCase().search('chileatiende') >= 0) {
-                return '/img/logos/chileatiende.png'
-            }
-            if (institucion.datos.codigo.toLowerCase().search('chileaatiende') >= 0) {
-                return '/img/logos/chileatiende.png'
-            }
-            return `/img/logos/${institucion.datos.codigo.toLowerCase()}.png`
+            // if (institucion.datos.codigo.toLowerCase().search('chilecompra') >= 0) {
+            //     return '/img/logos/chilecompra.png'
+            // }
+            // if (institucion.datos.codigo.toLowerCase().search('chileatiende') >= 0) {
+            //     return '/img/logos/chileatiende.png'
+            // }
+            // if (institucion.datos.codigo.toLowerCase().search('chileaatiende') >= 0) {
+            //     return '/img/logos/chileatiende.png'
+            // }
+            return `/img/logos/${institucion.nombre_corto.toLowerCase()}.png`
         }
 
     },
     mounted () {
-
     }
 
 }

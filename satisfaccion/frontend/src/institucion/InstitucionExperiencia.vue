@@ -12,7 +12,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="chart__header">
-                    <h2>Evaluación de las instituciones</h2>
+                    <h2>Evaluación de la institución</h2>
                 </div>
                 <div class="chart__body">
                     <div id="generales-eval_inst"></div>
@@ -37,14 +37,14 @@ export default {
                 tipo_grafico: 'barra',
                 medicion: 'experiencia',
                 periodo: 'historico',
-                filtro: {}
+                // filtro: { institucion__codigo_dipres: this.$route.params.id }
             },
             configB: {
                 elementId: 'generales-eval_inst',
                 tipo_grafico: 'barra',
                 medicion: 'eval_inst',
                 periodo: 'historico',
-                filtro: {}
+                // filtro: { institucion__codigo_dipres: this.$route.params.id }
             }
         }
     },
@@ -55,6 +55,7 @@ export default {
     mounted () {
         this.cambiar(this.config)
         this.cambiar(this.configB)
+        // this.cambiar(this.config)
     }
 }
 </script>

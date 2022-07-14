@@ -27,11 +27,13 @@ export default {
             if (y === 2018) { valores[1] = satisfacciones[b] }
             if (y === 2019) { valores[2] = satisfacciones[b] }
             if (y === 2020) { valores[3] = satisfacciones[b] }
+            if (y === 2021) { valores[4] = satisfacciones[b] }
 
             if (y === 2017) { years[0] = 2017 }
             if (y === 2018) { years[1] = 2018 }
             if (y === 2019) { years[2] = 2019 }
             if (y === 2020) { years[3] = 2020 }
+            if (y === 2020) { years[4] = 2021 }
         })
         this.data = {
             type: 'bar',
@@ -61,7 +63,7 @@ export default {
                 datalabels: {
                     color: 'white',
                     font: {
-                        size: 14,
+                        size: 10,
                         weight: 600
                     },
                     align: 'bottom',

@@ -79,7 +79,8 @@ router.beforeEach(function (to, from, next) {
 axios.interceptors.request.use(
     (config) => {
         const token = localStorage.getItem('jwt.access')
-        if (config.url.search('http') !== 0 && config.url.search('/api/') === 0) {
+        if (config.url.search('http') !== 0 // && config.url.search('/api/') === 0
+        ) {
             config.url = process.env.VUE_APP_BASEURL + config.url
         }
         if (token) {
@@ -101,7 +102,7 @@ axios.interceptors.response.use((response) => {
 
     if (error.response && error.response.status === 401 && error.response.data && error.response.data.detail === 'Authentication credentials were not provided.') {
         localStorage.removeItem('jwt.access')
-        router.push('/login')
+        router.push('/')
         return Promise.reject(error)
     }
 
@@ -109,7 +110,7 @@ axios.interceptors.response.use((response) => {
         // si el url es el refresh, signifia que ya es el segundo request una vez que el primero no fue existos o por tanto debe devolver el error
         if (error.config.url.search('/api/token/refresh/') >= 0) {
             localStorage.removeItem('jwt.access')
-            router.push('/login')
+            router.push('/')
             return Promise.reject(error)
         }
 
@@ -136,7 +137,7 @@ axios.interceptors.response.use((response) => {
     return Promise.reject(error)
 
     // if (error.response.status === 401 && originalRequest.url === 'http://13.232.130.60:8081/v1/auth/token) {
-    //   router.push('/login')
+    //   router.push('/')
     //   return Promise.reject(error)
     // }
 })

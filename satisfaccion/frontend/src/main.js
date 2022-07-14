@@ -22,12 +22,14 @@ import {
 import { faSmile, faFrown } from '@fortawesome/free-regular-svg-icons'
 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import Vuex from 'vuex'
 
 // window.$ = window.jQuery = require('jquery')
 
 // Vue.use(BootstrapVue)
 Vue.use(VueCarousel)
 Vue.component('multiselect', Multiselect)
+// Vue.use(Vuex)
 
 Vue.filter('formatDateTime', function (value) {
     if (value) {
@@ -130,5 +132,6 @@ axios.interceptors.response.use((response) => {
 
 new Vue({
     router,
+    // store: store,
     render: h => h(App)
 }).$mount('#app')
